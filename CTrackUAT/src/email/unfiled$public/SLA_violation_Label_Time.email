@@ -1,0 +1,16 @@
+Dear All,
+
+There is a miss in SLA for Shipment in activity Labeling process.
+
+Airway/Shipment Number:  {!Airway_Shipment__c.Name} 
+Related Invoice Number/Range:  {!Airway_Shipment__c.Invoice_Number_Range__c} 
+Franchise:  {!Airway_Shipment__c.Franchise__c} 
+Status:  {!Airway_Shipment__c.Status__c}  
+Status Update Date: {!Airway_Shipment__c.Status_Update_Date__c}
+
+Click on the link to access the case:  {!Airway_Shipment__c.Link}
+Please do the needful. 
+
+
+Regards,
+System Admin

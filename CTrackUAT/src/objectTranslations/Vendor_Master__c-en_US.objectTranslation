@@ -1,0 +1,3550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Vendor Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vendor Master</value>
+    </caseValues>
+    <fields>
+        <label><!-- City of Shipment --></label>
+        <name>City_of_Shipment__c</name>
+        <picklistValues>
+            <masterLabel>&quot;KOWLOON, HONGKONG&quot;</masterLabel>
+            <translation><!-- &quot;KOWLOON, HONGKONG&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1-5 KHARTOUM ROAD</masterLabel>
+            <translation><!-- 1-5 KHARTOUM ROAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000 GIBRALTAR DRIVE</masterLabel>
+            <translation><!-- 1000 GIBRALTAR DRIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>106 Moo 4, Lat Krabang Industrial</masterLabel>
+            <translation><!-- 106 Moo 4, Lat Krabang Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AIRPORT CITY</masterLabel>
+            <translation><!-- AIRPORT CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALCACER DO SAL</masterLabel>
+            <translation><!-- ALCACER DO SAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALEXANDRIA</masterLabel>
+            <translation><!-- ALEXANDRIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMSTERDAM</masterLabel>
+            <translation><!-- AMSTERDAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANTIOCH</masterLabel>
+            <translation><!-- ANTIOCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARCORE</masterLabel>
+            <translation><!-- ARCORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATLANTA</masterLabel>
+            <translation><!-- ATLANTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUCKLAND</masterLabel>
+            <translation><!-- AUCKLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAD WILDUNGEN</masterLabel>
+            <translation><!-- BAD WILDUNGEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANGLADESH</masterLabel>
+            <translation><!-- BANGLADESH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELGIUM</masterLabel>
+            <translation><!-- BELGIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BERKSHIRE</masterLabel>
+            <translation><!-- BERKSHIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BILLERICAY</masterLabel>
+            <translation><!-- BILLERICAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIRGUNJ</masterLabel>
+            <translation><!-- BIRGUNJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLYTH</masterLabel>
+            <translation><!-- BLYTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOCA RATON</masterLabel>
+            <translation><!-- BOCA RATON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSTON</masterLabel>
+            <translation><!-- BOSTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAZIL</masterLabel>
+            <translation><!-- BRAZIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAZILS</masterLabel>
+            <translation><!-- BRAZILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRIGHOUSE</masterLabel>
+            <translation><!-- BRIGHOUSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRISTOL</masterLabel>
+            <translation><!-- BRISTOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRUCKMUHL</masterLabel>
+            <translation><!-- BRUCKMUHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BUCKINGHAMSHIRE</masterLabel>
+            <translation><!-- BUCKINGHAMSHIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beerse</masterLabel>
+            <translation><!-- Beerse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brussels</masterLabel>
+            <translation><!-- Brussels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALDWELL</masterLabel>
+            <translation><!-- CALDWELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALIFORNIA</masterLabel>
+            <translation><!-- CALIFORNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANNONSBURG</masterLabel>
+            <translation><!-- CANNONSBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATANIA</masterLabel>
+            <translation><!-- CATANIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHANGZHOU</masterLabel>
+            <translation><!-- CHANGZHOU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHAPEL HILL</masterLabel>
+            <translation><!-- CHAPEL HILL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHICAGO</masterLabel>
+            <translation><!-- CHICAGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHIGASAKI</masterLabel>
+            <translation><!-- CHIGASAKI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CINCINATI</masterLabel>
+            <translation><!-- CINCINATI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CINCINNATI</masterLabel>
+            <translation><!-- CINCINNATI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLOMBO</masterLabel>
+            <translation><!-- COLOMBO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORK</masterLabel>
+            <translation><!-- CORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRANBURY</masterLabel>
+            <translation><!-- CRANBURY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRIA</masterLabel>
+            <translation><!-- CUMBRIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DALLAS</masterLabel>
+            <translation><!-- DALLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVOS</masterLabel>
+            <translation><!-- DAVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHAKA</masterLabel>
+            <translation><!-- DHAKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUBAI</masterLabel>
+            <translation><!-- DUBAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESSEX</masterLabel>
+            <translation><!-- ESSEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLORIDA</masterLabel>
+            <translation><!-- FLORIDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FORT LEE</masterLabel>
+            <translation><!-- FORT LEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRANCE</masterLabel>
+            <translation><!-- FRANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUNABASHI</masterLabel>
+            <translation><!-- FUNABASHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOTHENBURG</masterLabel>
+            <translation><!-- GOTHENBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRANDVIEW</masterLabel>
+            <translation><!-- GRANDVIEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENVILLE</masterLabel>
+            <translation><!-- GREENVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREER</masterLabel>
+            <translation><!-- GREER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guaynabo</masterLabel>
+            <translation><!-- Guaynabo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HABSHEIM</masterLabel>
+            <translation><!-- HABSHEIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HALL IN TIROL</masterLabel>
+            <translation><!-- HALL IN TIROL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARTLAND</masterLabel>
+            <translation><!-- HARTLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELMBRECHTS</masterLabel>
+            <translation><!-- HELMBRECHTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOESELT</masterLabel>
+            <translation><!-- HOESELT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HONG KONG</masterLabel>
+            <translation><!-- HONG KONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORSHAM</masterLabel>
+            <translation><!-- HORSHAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUTTO</masterLabel>
+            <translation><!-- HUTTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INGELFINGEN</masterLabel>
+            <translation><!-- INGELFINGEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRVINE</masterLabel>
+            <translation><!-- IRVINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRWON-DONG</masterLabel>
+            <translation><!-- IRWON-DONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISTANBUL</masterLabel>
+            <translation><!-- ISTANBUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inverness</masterLabel>
+            <translation><!-- Inverness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAKARTA</masterLabel>
+            <translation><!-- JAKARTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIANGSU</masterLabel>
+            <translation><!-- JIANGSU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KATHMANDU</masterLabel>
+            <translation><!-- KATHMANDU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KENDAL</masterLabel>
+            <translation><!-- KENDAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KUCHING</masterLabel>
+            <translation><!-- KUCHING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiryat-Ono</masterLabel>
+            <translation><!-- Kiryat-Ono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kowloon,</masterLabel>
+            <translation><!-- Kowloon, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAUSANNE</masterLabel>
+            <translation><!-- LAUSANNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAWRENCEBURG</masterLabel>
+            <translation><!-- LAWRENCEBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LE LOCLE</masterLabel>
+            <translation><!-- LE LOCLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEICESTER</masterLabel>
+            <translation><!-- LEICESTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LINCOLN</masterLabel>
+            <translation><!-- LINCOLN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LITTORAL</masterLabel>
+            <translation><!-- LITTORAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOGRONO</masterLabel>
+            <translation><!-- LOGRONO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LONDON</masterLabel>
+            <translation><!-- LONDON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS ANGELES</masterLabel>
+            <translation><!-- LOS ANGELES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOTHIAN</masterLabel>
+            <translation><!-- LOTHIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUBECK</masterLabel>
+            <translation><!-- LUBECK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAASTRICHT</masterLabel>
+            <translation><!-- MAASTRICHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MADISON</masterLabel>
+            <translation><!-- MADISON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAGU</masterLabel>
+            <translation><!-- MAGU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAKATI</masterLabel>
+            <translation><!-- MAKATI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANDALUYONG</masterLabel>
+            <translation><!-- MANDALUYONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIDDLESEX</masterLabel>
+            <translation><!-- MIDDLESEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MUNICH</masterLabel>
+            <translation><!-- MUNICH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menlo Park</masterLabel>
+            <translation><!-- Menlo Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt.Wellington</masterLabel>
+            <translation><!-- Mt.Wellington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NASHVILLE</masterLabel>
+            <translation><!-- NASHVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAVALCARNERO</masterLabel>
+            <translation><!-- NAVALCARNERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAWALA</masterLabel>
+            <translation><!-- NAWALA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEUCHATEL</masterLabel>
+            <translation><!-- NEUCHATEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEVADA</masterLabel>
+            <translation><!-- NEVADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW BRITAIN</masterLabel>
+            <translation><!-- NEW BRITAIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW HAMPSHIRE</masterLabel>
+            <translation><!-- NEW HAMPSHIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW INDUST</masterLabel>
+            <translation><!-- NEW INDUST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW JERSEY</masterLabel>
+            <translation><!-- NEW JERSEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW SOUTH WALES</masterLabel>
+            <translation><!-- NEW SOUTH WALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW YORK</masterLabel>
+            <translation><!-- NEW YORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOORWOOD</masterLabel>
+            <translation><!-- NOORWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORDERSTED</masterLabel>
+            <translation><!-- NORDERSTED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH RYDE</masterLabel>
+            <translation><!-- NORTH RYDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTH SHORE</masterLabel>
+            <translation><!-- NORTH SHORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTHWOOD</masterLabel>
+            <translation><!-- NORTHWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORWOOD</masterLabel>
+            <translation><!-- NORWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTTINGHAM</masterLabel>
+            <translation><!-- NOTTINGHAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYON</masterLabel>
+            <translation><!-- NYON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Brunswick</masterLabel>
+            <translation><!-- New Brunswick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONTARIO</masterLabel>
+            <translation><!-- ONTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSINING</masterLabel>
+            <translation><!-- OSSINING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oberdorf</masterLabel>
+            <translation><!-- Oberdorf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARANAQUE CITY</masterLabel>
+            <translation><!-- PARANAQUE CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARAÑAQUE</masterLabel>
+            <translation><!-- PARAÑAQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARIS</masterLabel>
+            <translation><!-- PARIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARKVILLE</masterLabel>
+            <translation><!-- PARKVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASIG CITY</masterLabel>
+            <translation><!-- PASIG CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENANG</masterLabel>
+            <translation><!-- PENANG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PETALING JAYA</masterLabel>
+            <translation><!-- PETALING JAYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PETALING JAYA,</masterLabel>
+            <translation><!-- PETALING JAYA, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PETERBOROUGH</masterLabel>
+            <translation><!-- PETERBOROUGH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHILADELPHIA</masterLabel>
+            <translation><!-- PHILADELPHIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PITTSBURGH</masterLabel>
+            <translation><!-- PITTSBURGH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUEENSLAND</masterLabel>
+            <translation><!-- QUEENSLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAK</masterLabel>
+            <translation><!-- RAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAYNHAM</masterLabel>
+            <translation><!-- RAYNHAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCHESTER</masterLabel>
+            <translation><!-- ROCHESTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUE CHEMIN-BLANC 38</masterLabel>
+            <translation><!-- RUE CHEMIN-BLANC 38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raritan</masterLabel>
+            <translation><!-- Raritan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAINT PRIEST</masterLabel>
+            <translation><!-- SAINT PRIEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALISBURY</masterLabel>
+            <translation><!-- SALISBURY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALT LAKE CITY</masterLabel>
+            <translation><!-- SALT LAKE CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALZBURG</masterLabel>
+            <translation><!-- SALZBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAMUTPRAKARN</masterLabel>
+            <translation><!-- SAMUTPRAKARN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN CLEMENTE</masterLabel>
+            <translation><!-- SAN CLEMENTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN DIEGO</masterLabel>
+            <translation><!-- SAN DIEGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN JOSE</masterLabel>
+            <translation><!-- SAN JOSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANTA BARBARA</masterLabel>
+            <translation><!-- SANTA BARBARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAO PAULO</masterLabel>
+            <translation><!-- SAO PAULO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCHAFFHAUSEN</masterLabel>
+            <translation><!-- SCHAFFHAUSEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEATTLE</masterLabel>
+            <translation><!-- SEATTLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEELBACH</masterLabel>
+            <translation><!-- SEELBACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SELANGOR</masterLabel>
+            <translation><!-- SELANGOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SELANGOR DE</masterLabel>
+            <translation><!-- SELANGOR DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEOUL</masterLabel>
+            <translation><!-- SEOUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHANGHAI</masterLabel>
+            <translation><!-- SHANGHAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHARJAH</masterLabel>
+            <translation><!-- SHARJAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHIGA</masterLabel>
+            <translation><!-- SHIGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHIZUOKA-KEN</masterLabel>
+            <translation><!-- SHIZUOKA-KEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SINGAPORE</masterLabel>
+            <translation><!-- SINGAPORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SISLI</masterLabel>
+            <translation><!-- SISLI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKILLMAN</masterLabel>
+            <translation><!-- SKILLMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLIERA</masterLabel>
+            <translation><!-- SOLIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLIHULL</masterLabel>
+            <translation><!-- SOLIHULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STROKESLEY</masterLabel>
+            <translation><!-- STROKESLEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUSSEX</masterLabel>
+            <translation><!-- SUSSEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUSUNG-GU</masterLabel>
+            <translation><!-- SUSUNG-GU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUTTON-IN-ASHFIELD</masterLabel>
+            <translation><!-- SUTTON-IN-ASHFIELD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUZHOU</masterLabel>
+            <translation><!-- SUZHOU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Lorenzo</masterLabel>
+            <translation><!-- San Lorenzo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somerville</masterLabel>
+            <translation><!-- Somerville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spreitenba</masterLabel>
+            <translation><!-- Spreitenba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAIPEI</masterLabel>
+            <translation><!-- TAIPEI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAIPEI CITY</masterLabel>
+            <translation><!-- TAIPEI CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMBUN BEKASI</masterLabel>
+            <translation><!-- TAMBUN BEKASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEXAS</masterLabel>
+            <translation><!-- TEXAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOKYO</masterLabel>
+            <translation><!-- TOKYO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TORINO</masterLabel>
+            <translation><!-- TORINO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TUCSON</masterLabel>
+            <translation><!-- TUCSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.A.E</masterLabel>
+            <translation><!-- U.A.E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S.A</masterLabel>
+            <translation><!-- U.S.A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VASHON</masterLabel>
+            <translation><!-- VASHON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VASHON ISLAND</masterLabel>
+            <translation><!-- VASHON ISLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIA DEL MARE</masterLabel>
+            <translation><!-- VIA DEL MARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAWOOD</masterLabel>
+            <translation><!-- VILLAWOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLINGEN-SCHWENNINGEN</masterLabel>
+            <translation><!-- VILLINGEN-SCHWENNINGEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vienna</masterLabel>
+            <translation><!-- Vienna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WARSAW</masterLabel>
+            <translation><!-- WARSAW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WATERLOO</masterLabel>
+            <translation><!-- WATERLOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEINER NEUDORFF</masterLabel>
+            <translation><!-- WEINER NEUDORFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIEN</masterLabel>
+            <translation><!-- WIEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILMINGTON</masterLabel>
+            <translation><!-- WILMINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WISCONSIN</masterLabel>
+            <translation><!-- WISCONSIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WONMIGU</masterLabel>
+            <translation><!-- WONMIGU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORSLEY MANCHESTER</masterLabel>
+            <translation><!-- WORSLEY MANCHESTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YORKSHIRE</masterLabel>
+            <translation><!-- YORKSHIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YUSEONG-GU</masterLabel>
+            <translation><!-- YUSEONG-GU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZUG</masterLabel>
+            <translation><!-- ZUG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Code --></label>
+        <name>Vendor_Code__c</name>
+        <picklistValues>
+            <masterLabel>1200</masterLabel>
+            <translation><!-- 1200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1220</masterLabel>
+            <translation><!-- 1220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1225</masterLabel>
+            <translation><!-- 1225 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1380</masterLabel>
+            <translation><!-- 1380 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1510</masterLabel>
+            <translation><!-- 1510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1520</masterLabel>
+            <translation><!-- 1520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1533</masterLabel>
+            <translation><!-- 1533 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1650</masterLabel>
+            <translation><!-- 1650 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1655</masterLabel>
+            <translation><!-- 1655 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1710</masterLabel>
+            <translation><!-- 1710 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1751</masterLabel>
+            <translation><!-- 1751 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1910</masterLabel>
+            <translation><!-- 1910 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1975</masterLabel>
+            <translation><!-- 1975 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1995</masterLabel>
+            <translation><!-- 1995 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1996</masterLabel>
+            <translation><!-- 1996 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200000</masterLabel>
+            <translation><!-- 200000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003</masterLabel>
+            <translation><!-- 2003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2231</masterLabel>
+            <translation><!-- 2231 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2301</masterLabel>
+            <translation><!-- 2301 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2330</masterLabel>
+            <translation><!-- 2330 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2450</masterLabel>
+            <translation><!-- 2450 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2472</masterLabel>
+            <translation><!-- 2472 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2520</masterLabel>
+            <translation><!-- 2520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2601</masterLabel>
+            <translation><!-- 2601 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2667</masterLabel>
+            <translation><!-- 2667 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2698</masterLabel>
+            <translation><!-- 2698 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2712</masterLabel>
+            <translation><!-- 2712 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2716</masterLabel>
+            <translation><!-- 2716 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2770</masterLabel>
+            <translation><!-- 2770 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2960</masterLabel>
+            <translation><!-- 2960 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2964</masterLabel>
+            <translation><!-- 2964 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2965</masterLabel>
+            <translation><!-- 2965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2991</masterLabel>
+            <translation><!-- 2991 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>302680</masterLabel>
+            <translation><!-- 302680 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>303759</masterLabel>
+            <translation><!-- 303759 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>305921</masterLabel>
+            <translation><!-- 305921 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3082</masterLabel>
+            <translation><!-- 3082 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3090</masterLabel>
+            <translation><!-- 3090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>310057</masterLabel>
+            <translation><!-- 310057 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>311657</masterLabel>
+            <translation><!-- 311657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3180</masterLabel>
+            <translation><!-- 3180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3182</masterLabel>
+            <translation><!-- 3182 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>318774</masterLabel>
+            <translation><!-- 318774 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324387</masterLabel>
+            <translation><!-- 324387 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324389</masterLabel>
+            <translation><!-- 324389 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324396</masterLabel>
+            <translation><!-- 324396 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324403</masterLabel>
+            <translation><!-- 324403 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324407</masterLabel>
+            <translation><!-- 324407 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324435</masterLabel>
+            <translation><!-- 324435 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324436</masterLabel>
+            <translation><!-- 324436 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324442</masterLabel>
+            <translation><!-- 324442 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324467</masterLabel>
+            <translation><!-- 324467 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324499</masterLabel>
+            <translation><!-- 324499 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324506</masterLabel>
+            <translation><!-- 324506 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324511</masterLabel>
+            <translation><!-- 324511 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324525</masterLabel>
+            <translation><!-- 324525 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324536</masterLabel>
+            <translation><!-- 324536 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324542</masterLabel>
+            <translation><!-- 324542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324558</masterLabel>
+            <translation><!-- 324558 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324568</masterLabel>
+            <translation><!-- 324568 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324577</masterLabel>
+            <translation><!-- 324577 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324607</masterLabel>
+            <translation><!-- 324607 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324631</masterLabel>
+            <translation><!-- 324631 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324637</masterLabel>
+            <translation><!-- 324637 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324645</masterLabel>
+            <translation><!-- 324645 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324678</masterLabel>
+            <translation><!-- 324678 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324691</masterLabel>
+            <translation><!-- 324691 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324693</masterLabel>
+            <translation><!-- 324693 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324713</masterLabel>
+            <translation><!-- 324713 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324730</masterLabel>
+            <translation><!-- 324730 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324739</masterLabel>
+            <translation><!-- 324739 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324768</masterLabel>
+            <translation><!-- 324768 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324786</masterLabel>
+            <translation><!-- 324786 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324803</masterLabel>
+            <translation><!-- 324803 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324833</masterLabel>
+            <translation><!-- 324833 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324868</masterLabel>
+            <translation><!-- 324868 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324905</masterLabel>
+            <translation><!-- 324905 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324930</masterLabel>
+            <translation><!-- 324930 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324960</masterLabel>
+            <translation><!-- 324960 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324979</masterLabel>
+            <translation><!-- 324979 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325337</masterLabel>
+            <translation><!-- 325337 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325890</masterLabel>
+            <translation><!-- 325890 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325917</masterLabel>
+            <translation><!-- 325917 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325950</masterLabel>
+            <translation><!-- 325950 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325962</masterLabel>
+            <translation><!-- 325962 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326016</masterLabel>
+            <translation><!-- 326016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326084</masterLabel>
+            <translation><!-- 326084 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326090</masterLabel>
+            <translation><!-- 326090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326100</masterLabel>
+            <translation><!-- 326100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326141</masterLabel>
+            <translation><!-- 326141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326159</masterLabel>
+            <translation><!-- 326159 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326208</masterLabel>
+            <translation><!-- 326208 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326393</masterLabel>
+            <translation><!-- 326393 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326440</masterLabel>
+            <translation><!-- 326440 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326458</masterLabel>
+            <translation><!-- 326458 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326467</masterLabel>
+            <translation><!-- 326467 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326476</masterLabel>
+            <translation><!-- 326476 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326478</masterLabel>
+            <translation><!-- 326478 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326496</masterLabel>
+            <translation><!-- 326496 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326532</masterLabel>
+            <translation><!-- 326532 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326537</masterLabel>
+            <translation><!-- 326537 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326559</masterLabel>
+            <translation><!-- 326559 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326563</masterLabel>
+            <translation><!-- 326563 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326606</masterLabel>
+            <translation><!-- 326606 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326646</masterLabel>
+            <translation><!-- 326646 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326767</masterLabel>
+            <translation><!-- 326767 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326815</masterLabel>
+            <translation><!-- 326815 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326912</masterLabel>
+            <translation><!-- 326912 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>326936</masterLabel>
+            <translation><!-- 326936 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327020</masterLabel>
+            <translation><!-- 327020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327026</masterLabel>
+            <translation><!-- 327026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327201</masterLabel>
+            <translation><!-- 327201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327233</masterLabel>
+            <translation><!-- 327233 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327274</masterLabel>
+            <translation><!-- 327274 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327294</masterLabel>
+            <translation><!-- 327294 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327482</masterLabel>
+            <translation><!-- 327482 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327504</masterLabel>
+            <translation><!-- 327504 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327505</masterLabel>
+            <translation><!-- 327505 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327506</masterLabel>
+            <translation><!-- 327506 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327507</masterLabel>
+            <translation><!-- 327507 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327508</masterLabel>
+            <translation><!-- 327508 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327509</masterLabel>
+            <translation><!-- 327509 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327510</masterLabel>
+            <translation><!-- 327510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327511</masterLabel>
+            <translation><!-- 327511 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327512</masterLabel>
+            <translation><!-- 327512 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327513</masterLabel>
+            <translation><!-- 327513 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327514</masterLabel>
+            <translation><!-- 327514 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327515</masterLabel>
+            <translation><!-- 327515 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327516</masterLabel>
+            <translation><!-- 327516 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327517</masterLabel>
+            <translation><!-- 327517 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327518</masterLabel>
+            <translation><!-- 327518 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327519</masterLabel>
+            <translation><!-- 327519 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327520</masterLabel>
+            <translation><!-- 327520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327521</masterLabel>
+            <translation><!-- 327521 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327522</masterLabel>
+            <translation><!-- 327522 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327523</masterLabel>
+            <translation><!-- 327523 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327524</masterLabel>
+            <translation><!-- 327524 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327525</masterLabel>
+            <translation><!-- 327525 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327526</masterLabel>
+            <translation><!-- 327526 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327527</masterLabel>
+            <translation><!-- 327527 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327528</masterLabel>
+            <translation><!-- 327528 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327529</masterLabel>
+            <translation><!-- 327529 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327544</masterLabel>
+            <translation><!-- 327544 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327545</masterLabel>
+            <translation><!-- 327545 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327551</masterLabel>
+            <translation><!-- 327551 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327563</masterLabel>
+            <translation><!-- 327563 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327706</masterLabel>
+            <translation><!-- 327706 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327722</masterLabel>
+            <translation><!-- 327722 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327781</masterLabel>
+            <translation><!-- 327781 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327785</masterLabel>
+            <translation><!-- 327785 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327798</masterLabel>
+            <translation><!-- 327798 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327815</masterLabel>
+            <translation><!-- 327815 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327892</masterLabel>
+            <translation><!-- 327892 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327893</masterLabel>
+            <translation><!-- 327893 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328059</masterLabel>
+            <translation><!-- 328059 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328169</masterLabel>
+            <translation><!-- 328169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328654</masterLabel>
+            <translation><!-- 328654 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328675</masterLabel>
+            <translation><!-- 328675 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328676</masterLabel>
+            <translation><!-- 328676 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328791</masterLabel>
+            <translation><!-- 328791 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328959</masterLabel>
+            <translation><!-- 328959 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329130</masterLabel>
+            <translation><!-- 329130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329176</masterLabel>
+            <translation><!-- 329176 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329180</masterLabel>
+            <translation><!-- 329180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329190</masterLabel>
+            <translation><!-- 329190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329251</masterLabel>
+            <translation><!-- 329251 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329326</masterLabel>
+            <translation><!-- 329326 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329334</masterLabel>
+            <translation><!-- 329334 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329350</masterLabel>
+            <translation><!-- 329350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329351</masterLabel>
+            <translation><!-- 329351 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329352</masterLabel>
+            <translation><!-- 329352 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329358</masterLabel>
+            <translation><!-- 329358 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329462</masterLabel>
+            <translation><!-- 329462 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329962</masterLabel>
+            <translation><!-- 329962 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329963</masterLabel>
+            <translation><!-- 329963 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329964</masterLabel>
+            <translation><!-- 329964 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330098</masterLabel>
+            <translation><!-- 330098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330262</masterLabel>
+            <translation><!-- 330262 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330280</masterLabel>
+            <translation><!-- 330280 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330285</masterLabel>
+            <translation><!-- 330285 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330620</masterLabel>
+            <translation><!-- 330620 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330740</masterLabel>
+            <translation><!-- 330740 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330780</masterLabel>
+            <translation><!-- 330780 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330801</masterLabel>
+            <translation><!-- 330801 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330926</masterLabel>
+            <translation><!-- 330926 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331343</masterLabel>
+            <translation><!-- 331343 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331512</masterLabel>
+            <translation><!-- 331512 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331583</masterLabel>
+            <translation><!-- 331583 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331856</masterLabel>
+            <translation><!-- 331856 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331952</masterLabel>
+            <translation><!-- 331952 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331979</masterLabel>
+            <translation><!-- 331979 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331990</masterLabel>
+            <translation><!-- 331990 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332023</masterLabel>
+            <translation><!-- 332023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332100</masterLabel>
+            <translation><!-- 332100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332101</masterLabel>
+            <translation><!-- 332101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332268</masterLabel>
+            <translation><!-- 332268 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332308</masterLabel>
+            <translation><!-- 332308 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332329</masterLabel>
+            <translation><!-- 332329 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332366</masterLabel>
+            <translation><!-- 332366 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332378</masterLabel>
+            <translation><!-- 332378 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332592</masterLabel>
+            <translation><!-- 332592 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332977</masterLabel>
+            <translation><!-- 332977 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332978</masterLabel>
+            <translation><!-- 332978 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332979</masterLabel>
+            <translation><!-- 332979 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333021</masterLabel>
+            <translation><!-- 333021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333022</masterLabel>
+            <translation><!-- 333022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333038</masterLabel>
+            <translation><!-- 333038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333142</masterLabel>
+            <translation><!-- 333142 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333340</masterLabel>
+            <translation><!-- 333340 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333396</masterLabel>
+            <translation><!-- 333396 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333421</masterLabel>
+            <translation><!-- 333421 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333766</masterLabel>
+            <translation><!-- 333766 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333800</masterLabel>
+            <translation><!-- 333800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334223</masterLabel>
+            <translation><!-- 334223 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334514</masterLabel>
+            <translation><!-- 334514 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334731</masterLabel>
+            <translation><!-- 334731 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334819</masterLabel>
+            <translation><!-- 334819 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334823</masterLabel>
+            <translation><!-- 334823 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334981</masterLabel>
+            <translation><!-- 334981 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335071</masterLabel>
+            <translation><!-- 335071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335088</masterLabel>
+            <translation><!-- 335088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335253</masterLabel>
+            <translation><!-- 335253 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335329</masterLabel>
+            <translation><!-- 335329 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335346</masterLabel>
+            <translation><!-- 335346 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335356</masterLabel>
+            <translation><!-- 335356 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335364</masterLabel>
+            <translation><!-- 335364 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335440</masterLabel>
+            <translation><!-- 335440 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335516</masterLabel>
+            <translation><!-- 335516 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336064</masterLabel>
+            <translation><!-- 336064 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336069</masterLabel>
+            <translation><!-- 336069 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336072</masterLabel>
+            <translation><!-- 336072 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336325</masterLabel>
+            <translation><!-- 336325 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336327</masterLabel>
+            <translation><!-- 336327 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336488</masterLabel>
+            <translation><!-- 336488 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336596</masterLabel>
+            <translation><!-- 336596 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336897</masterLabel>
+            <translation><!-- 336897 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336965</masterLabel>
+            <translation><!-- 336965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337106</masterLabel>
+            <translation><!-- 337106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337214</masterLabel>
+            <translation><!-- 337214 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337374</masterLabel>
+            <translation><!-- 337374 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337395</masterLabel>
+            <translation><!-- 337395 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337396</masterLabel>
+            <translation><!-- 337396 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337604</masterLabel>
+            <translation><!-- 337604 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337796</masterLabel>
+            <translation><!-- 337796 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337914</masterLabel>
+            <translation><!-- 337914 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337956</masterLabel>
+            <translation><!-- 337956 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338068</masterLabel>
+            <translation><!-- 338068 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338099</masterLabel>
+            <translation><!-- 338099 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338100</masterLabel>
+            <translation><!-- 338100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338398</masterLabel>
+            <translation><!-- 338398 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338475</masterLabel>
+            <translation><!-- 338475 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338502</masterLabel>
+            <translation><!-- 338502 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338526</masterLabel>
+            <translation><!-- 338526 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338699</masterLabel>
+            <translation><!-- 338699 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339210</masterLabel>
+            <translation><!-- 339210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339292</masterLabel>
+            <translation><!-- 339292 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339454</masterLabel>
+            <translation><!-- 339454 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339489</masterLabel>
+            <translation><!-- 339489 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>339547</masterLabel>
+            <translation><!-- 339547 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340095</masterLabel>
+            <translation><!-- 340095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340537</masterLabel>
+            <translation><!-- 340537 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340548</masterLabel>
+            <translation><!-- 340548 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340549</masterLabel>
+            <translation><!-- 340549 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340585</masterLabel>
+            <translation><!-- 340585 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340596</masterLabel>
+            <translation><!-- 340596 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340728</masterLabel>
+            <translation><!-- 340728 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341004</masterLabel>
+            <translation><!-- 341004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341093</masterLabel>
+            <translation><!-- 341093 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341245</masterLabel>
+            <translation><!-- 341245 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341298</masterLabel>
+            <translation><!-- 341298 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341794</masterLabel>
+            <translation><!-- 341794 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341893</masterLabel>
+            <translation><!-- 341893 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341965</masterLabel>
+            <translation><!-- 341965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342167</masterLabel>
+            <translation><!-- 342167 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342209</masterLabel>
+            <translation><!-- 342209 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342221</masterLabel>
+            <translation><!-- 342221 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342337</masterLabel>
+            <translation><!-- 342337 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342855</masterLabel>
+            <translation><!-- 342855 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>343241</masterLabel>
+            <translation><!-- 343241 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>343319</masterLabel>
+            <translation><!-- 343319 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3435</masterLabel>
+            <translation><!-- 3435 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>343609</masterLabel>
+            <translation><!-- 343609 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344166</masterLabel>
+            <translation><!-- 344166 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344221</masterLabel>
+            <translation><!-- 344221 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344781</masterLabel>
+            <translation><!-- 344781 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345159</masterLabel>
+            <translation><!-- 345159 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345201</masterLabel>
+            <translation><!-- 345201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345363</masterLabel>
+            <translation><!-- 345363 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345996</masterLabel>
+            <translation><!-- 345996 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345997</masterLabel>
+            <translation><!-- 345997 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346191</masterLabel>
+            <translation><!-- 346191 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346211</masterLabel>
+            <translation><!-- 346211 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346217</masterLabel>
+            <translation><!-- 346217 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346287</masterLabel>
+            <translation><!-- 346287 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346288</masterLabel>
+            <translation><!-- 346288 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346289</masterLabel>
+            <translation><!-- 346289 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3610</masterLabel>
+            <translation><!-- 3610 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3697</masterLabel>
+            <translation><!-- 3697 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3720</masterLabel>
+            <translation><!-- 3720 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3721</masterLabel>
+            <translation><!-- 3721 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3850</masterLabel>
+            <translation><!-- 3850 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3891</masterLabel>
+            <translation><!-- 3891 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3955</masterLabel>
+            <translation><!-- 3955 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3965</masterLabel>
+            <translation><!-- 3965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3966</masterLabel>
+            <translation><!-- 3966 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3970</masterLabel>
+            <translation><!-- 3970 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4090</masterLabel>
+            <translation><!-- 4090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4131</masterLabel>
+            <translation><!-- 4131 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4341</masterLabel>
+            <translation><!-- 4341 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4360</masterLabel>
+            <translation><!-- 4360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4462</masterLabel>
+            <translation><!-- 4462 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4471</masterLabel>
+            <translation><!-- 4471 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4474</masterLabel>
+            <translation><!-- 4474 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4530</masterLabel>
+            <translation><!-- 4530 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4690</masterLabel>
+            <translation><!-- 4690 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4840</masterLabel>
+            <translation><!-- 4840 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4890</masterLabel>
+            <translation><!-- 4890 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4940</masterLabel>
+            <translation><!-- 4940 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4961</masterLabel>
+            <translation><!-- 4961 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4968</masterLabel>
+            <translation><!-- 4968 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4969</masterLabel>
+            <translation><!-- 4969 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5096</masterLabel>
+            <translation><!-- 5096 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5110</masterLabel>
+            <translation><!-- 5110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600005</masterLabel>
+            <translation><!-- 600005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600010</masterLabel>
+            <translation><!-- 600010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600020</masterLabel>
+            <translation><!-- 600020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600022</masterLabel>
+            <translation><!-- 600022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6090</masterLabel>
+            <translation><!-- 6090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6139</masterLabel>
+            <translation><!-- 6139 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7400</masterLabel>
+            <translation><!-- 7400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8123</masterLabel>
+            <translation><!-- 8123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8631</masterLabel>
+            <translation><!-- 8631 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>905520</masterLabel>
+            <translation><!-- 905520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>907436</masterLabel>
+            <translation><!-- 907436 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>940</masterLabel>
+            <translation><!-- 940 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>942</masterLabel>
+            <translation><!-- 942 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>944</masterLabel>
+            <translation><!-- 944 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>945</masterLabel>
+            <translation><!-- 945 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>974</masterLabel>
+            <translation><!-- 974 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRD10</masterLabel>
+            <translation><!-- PRD10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSG80</masterLabel>
+            <translation><!-- PSG80 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+        <picklistValues>
+            <masterLabel>&quot;HSEC&quot; The Health-Education GmbH &amp;</masterLabel>
+            <translation><!-- &quot;HSEC&quot; The Health-Education GmbH &amp; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0945 MEDOS INTERNATIONAL - CHF</masterLabel>
+            <translation><!-- 0945 MEDOS INTERNATIONAL - CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1220 ETHICON INC. U.S.A.</masterLabel>
+            <translation><!-- 1220 ETHICON INC. U.S.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1225 DePuy Mitek. Inc</masterLabel>
+            <translation><!-- 1225 DePuy Mitek. Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1510 ETHICON ENDO-SURGERY INC</masterLabel>
+            <translation><!-- 1510 ETHICON ENDO-SURGERY INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1520 LIFESCAN INC</masterLabel>
+            <translation><!-- 1520 LIFESCAN INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1520 Lifescan LLC</masterLabel>
+            <translation><!-- 1520 Lifescan LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1650 CORDIS USA</masterLabel>
+            <translation><!-- 1650 CORDIS USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1655 BIOSENSE WEBSTER INC.</masterLabel>
+            <translation><!-- 1655 BIOSENSE WEBSTER INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1710 J&amp;J HCS USA</masterLabel>
+            <translation><!-- 1710 J&amp;J HCS USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1751 ADVANCED STERILIZATION PRODUCT</masterLabel>
+            <translation><!-- 1751 ADVANCED STERILIZATION PRODUCT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1995 MENTOR TEXAS</masterLabel>
+            <translation><!-- 1995 MENTOR TEXAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2330 ETHICON S.P.A. ITALY (EUR)</masterLabel>
+            <translation><!-- 2330 ETHICON S.P.A. ITALY (EUR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2450 JOHNSON &amp; JOHNSON MEDICAL KORE</masterLabel>
+            <translation><!-- 2450 JOHNSON &amp; JOHNSON MEDICAL KORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2520 J&amp;J Medical NV/SA</masterLabel>
+            <translation><!-- 2520 J&amp;J Medical NV/SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2601 MENTOR MEDICAL SYSTEMS CV</masterLabel>
+            <translation><!-- 2601 MENTOR MEDICAL SYSTEMS CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2667 DEPUY MOTION SARL</masterLabel>
+            <translation><!-- 2667 DEPUY MOTION SARL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2667 DEPUY SPINE SARL</masterLabel>
+            <translation><!-- 2667 DEPUY SPINE SARL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2667 MEDOS INTERNATIONAL SARL</masterLabel>
+            <translation><!-- 2667 MEDOS INTERNATIONAL SARL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2712 J&amp;J EUROPEAN LOGISTICS CENTRE</masterLabel>
+            <translation><!-- 2712 J&amp;J EUROPEAN LOGISTICS CENTRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2770 J&amp;J MEDICAL U.K.</masterLabel>
+            <translation><!-- 2770 J&amp;J MEDICAL U.K. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2960 J&amp;J MEDICAL PTY.LTD-AUSTRALIA</masterLabel>
+            <translation><!-- 2960 J&amp;J MEDICAL PTY.LTD-AUSTRALIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2965 OCD AUSTRALIA</masterLabel>
+            <translation><!-- 2965 OCD AUSTRALIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3182 J&amp;J MEDICAL BRAZIL</masterLabel>
+            <translation><!-- 3182 J&amp;J MEDICAL BRAZIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3435 J&amp;J MEDICAL (SHANGHAI) LTD</masterLabel>
+            <translation><!-- 3435 J&amp;J MEDICAL (SHANGHAI) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3610 ETHICON GMBH</masterLabel>
+            <translation><!-- 3610 ETHICON GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3697 JOHNSON &amp; JOHNSON CONSUMER EUR</masterLabel>
+            <translation><!-- 3697 JOHNSON &amp; JOHNSON CONSUMER EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3721 OBTECH MEDICAL SWITZERLAND</masterLabel>
+            <translation><!-- 3721 OBTECH MEDICAL SWITZERLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3850 JOHNSON &amp; JOHNSON (HK) LTD</masterLabel>
+            <translation><!-- 3850 JOHNSON &amp; JOHNSON (HK) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3891 J&amp;J MEDICAL - INDONESIA</masterLabel>
+            <translation><!-- 3891 J&amp;J MEDICAL - INDONESIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3965 OCD ROCHESTER</masterLabel>
+            <translation><!-- 3965 OCD ROCHESTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3966 OCD STRASBOURG</masterLabel>
+            <translation><!-- 3966 OCD STRASBOURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3970 DEPUY IRELAND LTD</masterLabel>
+            <translation><!-- 3970 DEPUY IRELAND LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4090 JOHNSON &amp; JOHNSON K.K.</masterLabel>
+            <translation><!-- 4090 JOHNSON &amp; JOHNSON K.K. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4131 JOHNSON &amp; JOHNSON MEDICAL  MAL</masterLabel>
+            <translation><!-- 4131 JOHNSON &amp; JOHNSON MEDICAL  MAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4360 J&amp;J MEDICAL - PHILIPPINES</masterLabel>
+            <translation><!-- 4360 J&amp;J MEDICAL - PHILIPPINES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4471 J&amp;J MEDICAL SINGAPORE</masterLabel>
+            <translation><!-- 4471 J&amp;J MEDICAL SINGAPORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4474 PRD 10 RDC</masterLabel>
+            <translation><!-- 4474 PRD 10 RDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4474 RDC (MD&amp;D Regional DC )</masterLabel>
+            <translation><!-- 4474 RDC (MD&amp;D Regional DC ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4530 JJM SOUTH AFRICA</masterLabel>
+            <translation><!-- 4530 JJM SOUTH AFRICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4690 CILAG GmbH INTERNATIONAL</masterLabel>
+            <translation><!-- 4690 CILAG GmbH INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4690 Janssen-Cilag Zug SG DC</masterLabel>
+            <translation><!-- 4690 Janssen-Cilag Zug SG DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4840 J&amp;J Medical Switzerland</masterLabel>
+            <translation><!-- 4840 J&amp;J Medical Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4940 J&amp;J Medical - Thailand</masterLabel>
+            <translation><!-- 4940 J&amp;J Medical - Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4961 J&amp;J MEDICAL MIDDLE EAST INC</masterLabel>
+            <translation><!-- 4961 J&amp;J MEDICAL MIDDLE EAST INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4968 BIOSENSE WEBSTER (ISRAEL) LTD</masterLabel>
+            <translation><!-- 4968 BIOSENSE WEBSTER (ISRAEL) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5096 OCD ESC</masterLabel>
+            <translation><!-- 5096 OCD ESC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5110 DEPUY INTERNATIONAL L.T.D.</masterLabel>
+            <translation><!-- 5110 DEPUY INTERNATIONAL L.T.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>942 DEPUY SPINE INC.</masterLabel>
+            <translation><!-- 942 DEPUY SPINE INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>944 DEPUY ACE SARL</masterLabel>
+            <translation><!-- 944 DEPUY ACE SARL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>945 CODMAN USA</masterLabel>
+            <translation><!-- 945 CODMAN USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>974 DEPUY MITEK SARL - CHF</masterLabel>
+            <translation><!-- 974 DEPUY MITEK SARL - CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A O ASIA PACIFIC</masterLabel>
+            <translation><!-- A O ASIA PACIFIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAALAC INTERNATIONAL</masterLabel>
+            <translation><!-- AAALAC INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABRASIPA INDUSTRIA DE ABRASIVOS</masterLabel>
+            <translation><!-- ABRASIPA INDUSTRIA DE ABRASIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGILENT TECHNOLOGIES SINGAPORE</masterLabel>
+            <translation><!-- AGILENT TECHNOLOGIES SINGAPORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALMORGROUP</masterLabel>
+            <translation><!-- ALMORGROUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES LEADERPACK</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES LEADERPACK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES LEADERPACK EMBAL</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES LEADERPACK EMBAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES SOLIERA</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES SOLIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES TRANSPAC BVBA</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES TRANSPAC BVBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCOR FLEXIBLES WINTERBOURNE LTD</masterLabel>
+            <translation><!-- AMCOR FLEXIBLES WINTERBOURNE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANALOX SENSOR TECHNOLOGY</masterLabel>
+            <translation><!-- ANALOX SENSOR TECHNOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANSYS INC</masterLabel>
+            <translation><!-- ANSYS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AO SPINE INTERNATIONAL</masterLabel>
+            <translation><!-- AO SPINE INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AO TRAUMA INTERNATIONAL</masterLabel>
+            <translation><!-- AO TRAUMA INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AO TRAUMA KURSSEKRETARIATE AUSTRIA</masterLabel>
+            <translation><!-- AO TRAUMA KURSSEKRETARIATE AUSTRIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APOLLO HOSPITALS</masterLabel>
+            <translation><!-- APOLLO HOSPITALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APSOM INFOTEX S PTE LTD</masterLabel>
+            <translation><!-- APSOM INFOTEX S PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASHLAND ELECTRIC PRODUCTS INC</masterLabel>
+            <translation><!-- ASHLAND ELECTRIC PRODUCTS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASHLAND INDUSTRIES EUROPE GMBH</masterLabel>
+            <translation><!-- ASHLAND INDUSTRIES EUROPE GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASIAN INSTITUTE OF MANAGEMENT</masterLabel>
+            <translation><!-- ASIAN INSTITUTE OF MANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATLAS TRADING CONCERN PVT LTD</masterLabel>
+            <translation><!-- ATLAS TRADING CONCERN PVT LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUTHENTIX INC</masterLabel>
+            <translation><!-- AUTHENTIX INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVAIL MEDICAL PRODUCTS INC</masterLabel>
+            <translation><!-- AVAIL MEDICAL PRODUCTS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVNET ASIA PTE LTD</masterLabel>
+            <translation><!-- AVNET ASIA PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acclarent Inc</masterLabel>
+            <translation><!-- Acclarent Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B &amp; T SRL</masterLabel>
+            <translation><!-- B &amp; T SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANGLADESH ORTHOPAEDIC SOCIETY</masterLabel>
+            <translation><!-- BANGLADESH ORTHOPAEDIC SOCIETY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BARRISTER MOHAMMAD IMTIAZ FAROOQ</masterLabel>
+            <translation><!-- BARRISTER MOHAMMAD IMTIAZ FAROOQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEMIS ASIA PACIFIC SDN BHD</masterLabel>
+            <translation><!-- BEMIS ASIA PACIFIC SDN BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BETA LASERMIKE LTD</masterLabel>
+            <translation><!-- BETA LASERMIKE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOPLATE</masterLabel>
+            <translation><!-- BIOPLATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BODYTEL EUROPE GMBH</masterLabel>
+            <translation><!-- BODYTEL EUROPE GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSCON</masterLabel>
+            <translation><!-- BOSCON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAINLAB LTD</masterLabel>
+            <translation><!-- BRAINLAB LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAND DEVELOPMENT NETWORK INTL</masterLabel>
+            <translation><!-- BRAND DEVELOPMENT NETWORK INTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREVIS CORPORATION</masterLabel>
+            <translation><!-- BREVIS CORPORATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRONSON AND JACOBS PTY LTD</masterLabel>
+            <translation><!-- BRONSON AND JACOBS PTY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bioplate Inc</masterLabel>
+            <translation><!-- Bioplate Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CARDIO TEK</masterLabel>
+            <translation><!-- CARDIO TEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDC DESIGN INC</masterLabel>
+            <translation><!-- CDC DESIGN INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CENTRE FOR STRATEGIC HEALTHCARE</masterLabel>
+            <translation><!-- CENTRE FOR STRATEGIC HEALTHCARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEMCARE ASIA CONSULTANTS PTE LTD</masterLabel>
+            <translation><!-- CHEMCARE ASIA CONSULTANTS PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEMICAL INDUSTRIES (COLOMBO) PLC</masterLabel>
+            <translation><!-- CHEMICAL INDUSTRIES (COLOMBO) PLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHO YONG BEOM</masterLabel>
+            <translation><!-- CHO YONG BEOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHUNG, SEUNG YOUNG</masterLabel>
+            <translation><!-- CHUNG, SEUNG YOUNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIC HOLDINGS PLC</masterLabel>
+            <translation><!-- CIC HOLDINGS PLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLATWORTHY ORTHOPAEDICS LIMITED</masterLabel>
+            <translation><!-- CLATWORTHY ORTHOPAEDICS LIMITED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEAR SOLUTIONS INC</masterLabel>
+            <translation><!-- CLEAR SOLUTIONS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CODMAN NEUROVASCULAR</masterLabel>
+            <translation><!-- CODMAN NEUROVASCULAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COGNEX IRELAND LTD</masterLabel>
+            <translation><!-- COGNEX IRELAND LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COGNEX LTD</masterLabel>
+            <translation><!-- COGNEX LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTANTIA TOBEPAL S L</masterLabel>
+            <translation><!-- CONSTANTIA TOBEPAL S L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORDIS GMBH GERMANY</masterLabel>
+            <translation><!-- CORDIS GMBH GERMANY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREAPLAST SAS</masterLabel>
+            <translation><!-- CREAPLAST SAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL LIMITED</masterLabel>
+            <translation><!-- CSL LIMITED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSL LTD</masterLabel>
+            <translation><!-- CSL LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardiotek</masterLabel>
+            <translation><!-- Cardiotek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changzhou Kangding Medical</masterLabel>
+            <translation><!-- Changzhou Kangding Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D. WANNINAYAKA</masterLabel>
+            <translation><!-- D. WANNINAYAKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DATA INNOVATIONS ASIA LTD</masterLabel>
+            <translation><!-- DATA INNOVATIONS ASIA LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVID JAY WEBER</masterLabel>
+            <translation><!-- DAVID JAY WEBER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAY TOOL &amp; MFG INC</masterLabel>
+            <translation><!-- DAY TOOL &amp; MFG INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DB SCHENKER</masterLabel>
+            <translation><!-- DB SCHENKER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEKON KONGRE VE TURIZM</masterLabel>
+            <translation><!-- DEKON KONGRE VE TURIZM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY FRANCE S.A.S</masterLabel>
+            <translation><!-- DEPUY FRANCE S.A.S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY ORTHOPAEDICS, INC</masterLabel>
+            <translation><!-- DEPUY ORTHOPAEDICS, INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEVICOR MEDICAL PRODUCTS</masterLabel>
+            <translation><!-- DEVICOR MEDICAL PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHRUBA BAR SINGH THAPA &amp; ASSOCIATES</masterLabel>
+            <translation><!-- DHRUBA BAR SINGH THAPA &amp; ASSOCIATES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR ALFREDO R GALASSI</masterLabel>
+            <translation><!-- DR ALFREDO R GALASSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR BAE, DAE KYUNG</masterLabel>
+            <translation><!-- DR BAE, DAE KYUNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR C T K KHOO</masterLabel>
+            <translation><!-- DR C T K KHOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR CHANG, JONG BEOM</masterLabel>
+            <translation><!-- DR CHANG, JONG BEOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR PRADEEP VAIDYA</masterLabel>
+            <translation><!-- DR PRADEEP VAIDYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR SUNIL KUMAR SHARMA</masterLabel>
+            <translation><!-- DR SUNIL KUMAR SHARMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR YOUN SOO PARK</masterLabel>
+            <translation><!-- DR YOUN SOO PARK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR,ROBERT K  ZURAWIN</masterLabel>
+            <translation><!-- DR,ROBERT K  ZURAWIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. DAVID SOCHART</masterLabel>
+            <translation><!-- DR. DAVID SOCHART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. HILTON BECKER</masterLabel>
+            <translation><!-- DR. HILTON BECKER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. JORGE PEREZ</masterLabel>
+            <translation><!-- DR. JORGE PEREZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. REHA YUVAZER</masterLabel>
+            <translation><!-- DR. REHA YUVAZER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. SIMON MARMOR</masterLabel>
+            <translation><!-- DR. SIMON MARMOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR. VENKAT RAMAKRISHNAN</masterLabel>
+            <translation><!-- DR. VENKAT RAMAKRISHNAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR.IMAD SHEIBAN</masterLabel>
+            <translation><!-- DR.IMAD SHEIBAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR.ROCCP P.PITTO</masterLabel>
+            <translation><!-- DR.ROCCP P.PITTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRAEGER SAFETY UK LTD</masterLabel>
+            <translation><!-- DRAEGER SAFETY UK LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRAGER MEDICAL GMBH</masterLabel>
+            <translation><!-- DRAGER MEDICAL GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DePuy Orthopadie Gmbh</masterLabel>
+            <translation><!-- DePuy Orthopadie Gmbh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASTEC INC</masterLabel>
+            <translation><!-- EASTEC INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EASTECH INC</masterLabel>
+            <translation><!-- EASTECH INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECLIPSE ADVERTISEMENT CO, LTD</masterLabel>
+            <translation><!-- ECLIPSE ADVERTISEMENT CO, LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDWARDS LTD</masterLabel>
+            <translation><!-- EDWARDS LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMBEDDED DATA SYSTEMS</masterLabel>
+            <translation><!-- EMBEDDED DATA SYSTEMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCAPADE</masterLabel>
+            <translation><!-- ESCAPADE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETHICON ENDO-SURGERY, LLC</masterLabel>
+            <translation><!-- ETHICON ENDO-SURGERY, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVENT SOLUTION MANAGEMENT SDN BHD</masterLabel>
+            <translation><!-- EVENT SOLUTION MANAGEMENT SDN BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXECUTIVE SOLUTIONS GROUP PTY LTD</masterLabel>
+            <translation><!-- EXECUTIVE SOLUTIONS GROUP PTY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPEDITORS INTERNATIONAL FRANCE SAS</masterLabel>
+            <translation><!-- EXPEDITORS INTERNATIONAL FRANCE SAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethicon Endo-Surgery (Europe) GMBH</masterLabel>
+            <translation><!-- Ethicon Endo-Surgery (Europe) GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FORETHOUGHT PR LIMITED</masterLabel>
+            <translation><!-- FORETHOUGHT PR LIMITED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FREUND CONTAINER &amp; SUPPLY</masterLabel>
+            <translation><!-- FREUND CONTAINER &amp; SUPPLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FS SSC PHILIPPINES</masterLabel>
+            <translation><!-- FS SSC PHILIPPINES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUNABASHI ORTHOPAEDIC HOSPITAL</masterLabel>
+            <translation><!-- FUNABASHI ORTHOPAEDIC HOSPITAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEMU GEBR. MULLER APPARATEBAU</masterLabel>
+            <translation><!-- GEMU GEBR. MULLER APPARATEBAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERAL SURGICAL SUPPLIERS</masterLabel>
+            <translation><!-- GENERAL SURGICAL SUPPLIERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENIUS CONSULTANTS (BANGLADESH)</masterLabel>
+            <translation><!-- GENIUS CONSULTANTS (BANGLADESH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GETINGE SINGAPORE PTE LTD</masterLabel>
+            <translation><!-- GETINGE SINGAPORE PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GETINGE UK LTD</masterLabel>
+            <translation><!-- GETINGE UK LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIVAUDAN SINGAPORE PTE LTD</masterLabel>
+            <translation><!-- GIVAUDAN SINGAPORE PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLOBAL DATA LTD.</masterLabel>
+            <translation><!-- GLOBAL DATA LTD. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMED HEALTH CARE BVBA (Codman)</masterLabel>
+            <translation><!-- GMED HEALTH CARE BVBA (Codman) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GPI ANATOMICALS</masterLabel>
+            <translation><!-- GPI ANATOMICALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREGORY JOHN WARD</masterLabel>
+            <translation><!-- GREGORY JOHN WARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GURLEY PRECISION INSTRUMENTS INC</masterLabel>
+            <translation><!-- GURLEY PRECISION INSTRUMENTS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HALIFAX FAN LTD</masterLabel>
+            <translation><!-- HALIFAX FAN LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEARTBEAT SOLUTION LLC</masterLabel>
+            <translation><!-- HEARTBEAT SOLUTION LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HERBERT WALDMANN GMBH &amp; CO. KG</masterLabel>
+            <translation><!-- HERBERT WALDMANN GMBH &amp; CO. KG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HERMAN MILLER ASIA (PTE) LTD</masterLabel>
+            <translation><!-- HERMAN MILLER ASIA (PTE) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICHANNEL MEDIA, LLC</masterLabel>
+            <translation><!-- ICHANNEL MEDIA, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMD INTERNATIONAL</masterLabel>
+            <translation><!-- IMD INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFECTION CONTROL ASSOCIATION</masterLabel>
+            <translation><!-- INFECTION CONTROL ASSOCIATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INNOMED INC</masterLabel>
+            <translation><!-- INNOMED INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INQUIRY RESEARCH SPECIALISTS INC</masterLabel>
+            <translation><!-- INQUIRY RESEARCH SPECIALISTS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSEAD</masterLabel>
+            <translation><!-- INSEAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSTROL FZE</masterLabel>
+            <translation><!-- INSTROL FZE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSTRON CORPORATION</masterLabel>
+            <translation><!-- INSTRON CORPORATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSTRON, A DIVISION OF ILLINOIS</masterLabel>
+            <translation><!-- INSTRON, A DIVISION OF ILLINOIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTEGRITY SERVICES</masterLabel>
+            <translation><!-- INTEGRITY SERVICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTEGRITY SERVICES INC</masterLabel>
+            <translation><!-- INTEGRITY SERVICES INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTEGRITY SOLUTIONS LLC</masterLabel>
+            <translation><!-- INTEGRITY SOLUTIONS LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPASS INC.</masterLabel>
+            <translation><!-- IPASS INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISHU RAO</masterLabel>
+            <translation><!-- ISHU RAO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISP (SINGAPORE) PTE LTD</masterLabel>
+            <translation><!-- ISP (SINGAPORE) PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISP SALES UK LTD</masterLabel>
+            <translation><!-- ISP SALES UK LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J CONSUMER PRODUCTS USA</masterLabel>
+            <translation><!-- J&amp;J CONSUMER PRODUCTS USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J GBSC Belgium</masterLabel>
+            <translation><!-- J&amp;J GBSC Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J HCS (Ethicon LLC)</masterLabel>
+            <translation><!-- J&amp;J HCS (Ethicon LLC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J MED NEW ZEALAND</masterLabel>
+            <translation><!-- J&amp;J MED NEW ZEALAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J MEDICAL B.V.NETHERLAND</masterLabel>
+            <translation><!-- J&amp;J MEDICAL B.V.NETHERLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J&amp;J MEDICAL TURKEY LTD</masterLabel>
+            <translation><!-- J&amp;J MEDICAL TURKEY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J-PAC LLC</masterLabel>
+            <translation><!-- J-PAC LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAMES CROPPER PLC</masterLabel>
+            <translation><!-- JAMES CROPPER PLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAMES CROPPER SPECIALITY PAPERS</masterLabel>
+            <translation><!-- JAMES CROPPER SPECIALITY PAPERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDEN PLASTIC SOLUTIONS</masterLabel>
+            <translation><!-- JARDEN PLASTIC SOLUTIONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JEON HO KYUNG</masterLabel>
+            <translation><!-- JEON HO KYUNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JEON, PYOUNG</masterLabel>
+            <translation><!-- JEON, PYOUNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHNSON &amp; JOHNSON PRODUCTOS BRAZIL</masterLabel>
+            <translation><!-- JOHNSON &amp; JOHNSON PRODUCTOS BRAZIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHNSON &amp; JOHNSON SDN BHD</masterLabel>
+            <translation><!-- JOHNSON &amp; JOHNSON SDN BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHNSON SCALE CO</masterLabel>
+            <translation><!-- JOHNSON SCALE CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOSLIN DIABETES CENTER, INC</masterLabel>
+            <translation><!-- JOSLIN DIABETES CENTER, INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JULABO LABROTECHNIK GMBH</masterLabel>
+            <translation><!-- JULABO LABROTECHNIK GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Janssen Diagnostics,LLC</masterLabel>
+            <translation><!-- Janssen Diagnostics,LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Janssen Pharmaceutica N.V.</masterLabel>
+            <translation><!-- Janssen Pharmaceutica N.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson &amp; Johnson Medical Taiwan Li</masterLabel>
+            <translation><!-- Johnson &amp; Johnson Medical Taiwan Li --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnson &amp; Johnson Pte Ltd -(DePuy S</masterLabel>
+            <translation><!-- Johnson &amp; Johnson Pte Ltd -(DePuy S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K-I CHEMICAL INDUSTRY CO LTD</masterLabel>
+            <translation><!-- K-I CHEMICAL INDUSTRY CO LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KEDRION MELVILLE INC.</masterLabel>
+            <translation><!-- KEDRION MELVILLE INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIM HEE CHUL</masterLabel>
+            <translation><!-- KIM HEE CHUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIM, HEE SEOP</masterLabel>
+            <translation><!-- KIM, HEE SEOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIM, SEONG RIM</masterLabel>
+            <translation><!-- KIM, SEONG RIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KONGRESS HOTEL DAVOS</masterLabel>
+            <translation><!-- KONGRESS HOTEL DAVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOSC TRAINING CENTRE</masterLabel>
+            <translation><!-- KOSC TRAINING CENTRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KRISHNA NEPAL TRADING (PVT) LTD</masterLabel>
+            <translation><!-- KRISHNA NEPAL TRADING (PVT) LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEE BUMGARNER (LBI), INC</masterLabel>
+            <translation><!-- LEE BUMGARNER (LBI), INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEE WOO YONG</masterLabel>
+            <translation><!-- LEE WOO YONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOUIS LEVIN &amp; SON INC</masterLabel>
+            <translation><!-- LOUIS LEVIN &amp; SON INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lifescan Scotland</masterLabel>
+            <translation><!-- Lifescan Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAASPAK EXPORT MOVERS</masterLabel>
+            <translation><!-- MAASPAK EXPORT MOVERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANGAR INDUSTRIES INC</masterLabel>
+            <translation><!-- MANGAR INDUSTRIES INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANJIT S BHAMRA</masterLabel>
+            <translation><!-- MANJIT S BHAMRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCEVOY &amp; FARMER LLC</masterLabel>
+            <translation><!-- MCEVOY &amp; FARMER LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCP CONSULTING AND TRAINING</masterLabel>
+            <translation><!-- MCP CONSULTING AND TRAINING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDI CARD LTD</masterLabel>
+            <translation><!-- MEDI CARD LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDICAL MODELS LTD</masterLabel>
+            <translation><!-- MEDICAL MODELS LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDIPRO LTD</masterLabel>
+            <translation><!-- MEDIPRO LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDIQUIP MALDIVES PVT LTD</masterLabel>
+            <translation><!-- MEDIQUIP MALDIVES PVT LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDOS INTERNATIONAL SARL TRAUMA DIV</masterLabel>
+            <translation><!-- MEDOS INTERNATIONAL SARL TRAUMA DIV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDPOINT LLC</masterLabel>
+            <translation><!-- MEDPOINT LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MENTICE AB</masterLabel>
+            <translation><!-- MENTICE AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MILLER HEIMAN</masterLabel>
+            <translation><!-- MILLER HEIMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITSUBISHI CHEMICAL ANALYTECH CO</masterLabel>
+            <translation><!-- MITSUBISHI CHEMICAL ANALYTECH CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MODERN SURGICAL (PVT) LTD.</masterLabel>
+            <translation><!-- MODERN SURGICAL (PVT) LTD. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MORDERN SURGICAL MART</masterLabel>
+            <translation><!-- MORDERN SURGICAL MART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOTION CONTROL LLC</masterLabel>
+            <translation><!-- MOTION CONTROL LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MWV</masterLabel>
+            <translation><!-- MWV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medos International Sarl</masterLabel>
+            <translation><!-- Medos International Sarl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAMSA</masterLabel>
+            <translation><!-- NAMSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATIONAL UNIVERSITY HOSPITAL (S)</masterLabel>
+            <translation><!-- NATIONAL UNIVERSITY HOSPITAL (S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NGA OUTSOURCING SINGAPORE PTE LTD</masterLabel>
+            <translation><!-- NGA OUTSOURCING SINGAPORE PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NIKON CORPORATION</masterLabel>
+            <translation><!-- NIKON CORPORATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORTHERN DIGITAL INC</masterLabel>
+            <translation><!-- NORTHERN DIGITAL INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOVARTIS VACCINES &amp; DIAGNOSTICS INC</masterLabel>
+            <translation><!-- NOVARTIS VACCINES &amp; DIAGNOSTICS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUSIL TECHNOLOGY LLC</masterLabel>
+            <translation><!-- NUSIL TECHNOLOGY LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O Y L MANUFACTURING COMP SDN BHD</masterLabel>
+            <translation><!-- O Y L MANUFACTURING COMP SDN BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCCIDENTAL CHEMICAL EXPORT SALES</masterLabel>
+            <translation><!-- OCCIDENTAL CHEMICAL EXPORT SALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMIC CORPORATION</masterLabel>
+            <translation><!-- OMIC CORPORATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMRIX BIOPHARMACETICALS, LTD.</masterLabel>
+            <translation><!-- OMRIX BIOPHARMACETICALS, LTD. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHO CLINICAL DIAGNOSTICS FRANCE</masterLabel>
+            <translation><!-- ORTHO CLINICAL DIAGNOSTICS FRANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHO CLINICAL DIAGNOSTICS., INC</masterLabel>
+            <translation><!-- ORTHO CLINICAL DIAGNOSTICS., INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHO-CLINICAL DIAGNOSTICS FRANCE</masterLabel>
+            <translation><!-- ORTHO-CLINICAL DIAGNOSTICS FRANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHO-CLINICAL DIAGNOSTICS, INC.</masterLabel>
+            <translation><!-- ORTHO-CLINICAL DIAGNOSTICS, INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHO-CLINICAL DIAGNOSTICS,INC.</masterLabel>
+            <translation><!-- ORTHO-CLINICAL DIAGNOSTICS,INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ortho-Clinical Diagnostics France S</masterLabel>
+            <translation><!-- Ortho-Clinical Diagnostics France S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ortho-Clinical Diagnostics, Inc</masterLabel>
+            <translation><!-- Ortho-Clinical Diagnostics, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PACIFIC RESEARCH LABORATORIES INC</masterLabel>
+            <translation><!-- PACIFIC RESEARCH LABORATORIES INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARAGAON MEDICAL DEVICE</masterLabel>
+            <translation><!-- PARAGAON MEDICAL DEVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARK YOON AH</masterLabel>
+            <translation><!-- PARK YOON AH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERKINELMER SINGAPORE PTE LTD</masterLabel>
+            <translation><!-- PERKINELMER SINGAPORE PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHARMA MED INTERNATIONAL</masterLabel>
+            <translation><!-- PHARMA MED INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHILIPPINES ASSOCIATION OF MEDICAL</masterLabel>
+            <translation><!-- PHILIPPINES ASSOCIATION OF MEDICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POSH OFFICE SYSTEM</masterLabel>
+            <translation><!-- POSH OFFICE SYSTEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POWER TOOLS DISTRIBUTION</masterLabel>
+            <translation><!-- POWER TOOLS DISTRIBUTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRABHATH RANGANA AMARASEKARA</masterLabel>
+            <translation><!-- PRABHATH RANGANA AMARASEKARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROAMS</masterLabel>
+            <translation><!-- PROAMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROVASCULAR GMBH</masterLabel>
+            <translation><!-- PROVASCULAR GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT EVONIK SUMI ASIH</masterLabel>
+            <translation><!-- PT EVONIK SUMI ASIH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paragon Medical Device (Changzhou)</masterLabel>
+            <translation><!-- Paragon Medical Device (Changzhou) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUALITAS TECHNOLOGY LTD</masterLabel>
+            <translation><!-- QUALITAS TECHNOLOGY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUESTEL ORBIT INC</masterLabel>
+            <translation><!-- QUESTEL ORBIT INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUINTILES LTD</masterLabel>
+            <translation><!-- QUINTILES LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAUMEDIC AG</masterLabel>
+            <translation><!-- RAUMEDIC AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REGUS BUSINESS CENTRE MANAGEMENT</masterLabel>
+            <translation><!-- REGUS BUSINESS CENTRE MANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RHINE RIVER TRADING FZC</masterLabel>
+            <translation><!-- RHINE RIVER TRADING FZC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RHODIA THAI INDUSTRIES LTD</masterLabel>
+            <translation><!-- RHODIA THAI INDUSTRIES LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROSALIND FREEMAN</masterLabel>
+            <translation><!-- ROSALIND FREEMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAGES</masterLabel>
+            <translation><!-- SAGES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCEPTER COMMUNICATIONS INC</masterLabel>
+            <translation><!-- SCEPTER COMMUNICATIONS INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCHEMA</masterLabel>
+            <translation><!-- SCHEMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECURIKETT</masterLabel>
+            <translation><!-- SECURIKETT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIO DE INSTRUMENTACION</masterLabel>
+            <translation><!-- SERVICIO DE INSTRUMENTACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHANGHAI SHENJUN IMP/EXP CO LTD</masterLabel>
+            <translation><!-- SHANGHAI SHENJUN IMP/EXP CO LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHEIK  SHAHID ALI</masterLabel>
+            <translation><!-- SHEIK  SHAHID ALI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHI INTERNATIONAL CORP</masterLabel>
+            <translation><!-- SHI INTERNATIONAL CORP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHIMADZU (ASIA PACIFIC) PTE LTD</masterLabel>
+            <translation><!-- SHIMADZU (ASIA PACIFIC) PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SICOT A.I.S.B.L</masterLabel>
+            <translation><!-- SICOT A.I.S.B.L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMBIONIX LTD</masterLabel>
+            <translation><!-- SIMBIONIX LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPEX CORPORATION EUROPE LTD</masterLabel>
+            <translation><!-- SIMPEX CORPORATION EUROPE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPEX CORPORATION USA</masterLabel>
+            <translation><!-- SIMPEX CORPORATION USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPEX ENGINEERING PVT INC</masterLabel>
+            <translation><!-- SIMPEX ENGINEERING PVT INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SINGAPORE GENERAL HOSPITAL PTE LTD</masterLabel>
+            <translation><!-- SINGAPORE GENERAL HOSPITAL PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SINGAPORE MANAGEMENT UNIVERSITY</masterLabel>
+            <translation><!-- SINGAPORE MANAGEMENT UNIVERSITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMADJA &amp; ASSOCIATES INC</masterLabel>
+            <translation><!-- SMADJA &amp; ASSOCIATES INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMT</masterLabel>
+            <translation><!-- SMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOCIETY OF LAPAROSCOPIC SURGEON OF</masterLabel>
+            <translation><!-- SOCIETY OF LAPAROSCOPIC SURGEON OF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOCIETY OF SURGEONS OF NEPAL</masterLabel>
+            <translation><!-- SOCIETY OF SURGEONS OF NEPAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLUTIONS REALITY LTD</masterLabel>
+            <translation><!-- SOLUTIONS REALITY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SONARGAON HEALTHCARE PVT.LTD.</masterLabel>
+            <translation><!-- SONARGAON HEALTHCARE PVT.LTD. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STATE PHARMACEUTICALS CORPORATION</masterLabel>
+            <translation><!-- STATE PHARMACEUTICALS CORPORATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU ZHOU SCHINDLER ELEVATOR CO LTD</masterLabel>
+            <translation><!-- SU ZHOU SCHINDLER ELEVATOR CO LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUNSHINE HEALTHCARE LANKA LIMITED</masterLabel>
+            <translation><!-- SUNSHINE HEALTHCARE LANKA LIMITED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYMMETRY MEDICAL MALAYSIA SDN BHD</masterLabel>
+            <translation><!-- SYMMETRY MEDICAL MALAYSIA SDN BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYMMETRY SURGICAL</masterLabel>
+            <translation><!-- SYMMETRY SURGICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNBONE AG</masterLabel>
+            <translation><!-- SYNBONE AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNTHES AUSTRALIA PTY LTD</masterLabel>
+            <translation><!-- SYNTHES AUSTRALIA PTY LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNTHES GMBH</masterLabel>
+            <translation><!-- SYNTHES GMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNTHES SINGAPORE PTE LTD</masterLabel>
+            <translation><!-- SYNTHES SINGAPORE PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYSTAGENIX WOUND MANAGEMENT IP CO</masterLabel>
+            <translation><!-- SYSTAGENIX WOUND MANAGEMENT IP CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYSTECH INTERNATIONAL</masterLabel>
+            <translation><!-- SYSTECH INTERNATIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T.F.C. RESTAURANT</masterLabel>
+            <translation><!-- T.F.C. RESTAURANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAE JOONG KIM</masterLabel>
+            <translation><!-- TAE JOONG KIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAIWAN SOCIETY FOR METABOLIC AND</masterLabel>
+            <translation><!-- TAIWAN SOCIETY FOR METABOLIC AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAL LANKA HOTELS PLC</masterLabel>
+            <translation><!-- TAL LANKA HOTELS PLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TANDUS FLOORING (SUZHOU)</masterLabel>
+            <translation><!-- TANDUS FLOORING (SUZHOU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE COLLEGE OF SURGEONS OF</masterLabel>
+            <translation><!-- THE COLLEGE OF SURGEONS OF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THE UNIVERSITY OF ARIZONA</masterLabel>
+            <translation><!-- THE UNIVERSITY OF ARIZONA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THOMSON REUTERS (SCIENTIFIC) INC</masterLabel>
+            <translation><!-- THOMSON REUTERS (SCIENTIFIC) INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TINIUS OLSEN LTD</masterLabel>
+            <translation><!-- TINIUS OLSEN LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIRUCHELVAM ASSOCIATES</masterLabel>
+            <translation><!-- TIRUCHELVAM ASSOCIATES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANE INDIA LTD</masterLabel>
+            <translation><!-- TRANE INDIA LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRICYCLE COMMUNICATIONS, INC.</masterLabel>
+            <translation><!-- TRICYCLE COMMUNICATIONS, INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thermo Fisher Scientific Oy</masterLabel>
+            <translation><!-- Thermo Fisher Scientific Oy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UMIT</masterLabel>
+            <translation><!-- UMIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNIHEALTH LTD</masterLabel>
+            <translation><!-- UNIHEALTH LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNITED TRADE ALLIANCE</masterLabel>
+            <translation><!-- UNITED TRADE ALLIANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNIVAR EXPLORER - UNIVAR LTD</masterLabel>
+            <translation><!-- UNIVAR EXPLORER - UNIVAR LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VARANGIANS, LLC</masterLabel>
+            <translation><!-- VARANGIANS, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VFA INC.</masterLabel>
+            <translation><!-- VFA INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIDIMSOFT</masterLabel>
+            <translation><!-- VIDIMSOFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W130 JOHNSON &amp; JONHSON</masterLabel>
+            <translation><!-- W130 JOHNSON &amp; JONHSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WALLGATE LIMITED</masterLabel>
+            <translation><!-- WALLGATE LIMITED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WATERS GESMBH</masterLabel>
+            <translation><!-- WATERS GESMBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WINTRONICS, INC.</masterLabel>
+            <translation><!-- WINTRONICS, INC. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIPRO NETWORKS PTE LTD</masterLabel>
+            <translation><!-- WIPRO NETWORKS PTE LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOON  SUNG HYUN</masterLabel>
+            <translation><!-- YOON  SUNG HYUN --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Vendor Master Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Vendor Master --></label>
+            <section>Vendor Master</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

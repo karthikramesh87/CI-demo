@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <legendPosition>Bottom</legendPosition>
+            <report>unfiled$public/Overall_Lead_Time_w</report>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Overall Lead Time</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <legendPosition>Bottom</legendPosition>
+            <report>unfiled$public/Overall_Lead_Time_Labeling_Activities</report>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Overall Lead Time - Labeling Activities</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+    </rightSection>
+    <runningUser>karthik.ramesh2@ctrack.jnj.ctrackuat</runningUser>
+    <textColor>#000000</textColor>
+    <title>Overall Lead Time</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

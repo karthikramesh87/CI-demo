@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>SLA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SLA</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agreed ETA --></label>
+        <name>Agreed_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ex-bonding time --></label>
+        <name>Ex_bonding_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-bonding time --></label>
+        <name>In_bonding_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-country transit time --></label>
+        <name>In_country_transit_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label dispatch to bonded wh time --></label>
+        <name>Label_dispatch_to_bonded_wh_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label ordering  time --></label>
+        <name>Label_ordering_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label printing, checking time --></label>
+        <name>Label_printing_checking_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling queuing time --></label>
+        <name>Labeling_queuing_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling time --></label>
+        <name>Labeling_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting time --></label>
+        <name>Receipting_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shrink wrapping time --></label>
+        <name>Shrink_wrapping_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH Checking process time --></label>
+        <name>WH_Checking_process_time__c</name>
+    </fields>
+    <layouts>
+        <layout>SLA Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

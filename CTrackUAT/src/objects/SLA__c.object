@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Agreed_ETA__c</fullName>
+        <label>Agreed ETA</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Ex_bonding_time__c</fullName>
+        <label>Ex-bonding time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>In_bonding_time__c</fullName>
+        <label>In-bonding time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>In_country_transit_time__c</fullName>
+        <label>In-country transit time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_dispatch_to_bonded_wh_time__c</fullName>
+        <label>Label dispatch to bonded wh time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_ordering_time__c</fullName>
+        <label>Label ordering  time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_printing_checking_time__c</fullName>
+        <label>Label printing, checking time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_queuing_time__c</fullName>
+        <label>Labeling queuing time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_time__c</fullName>
+        <label>Labeling time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_time__c</fullName>
+        <label>Receipting time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Shrink_wrapping_time__c</fullName>
+        <label>Shrink wrapping time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>WH_Checking_process_time__c</fullName>
+        <label>WH Checking process time</label>
+        <precision>2</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <label>SLA</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Agreed_ETA__c</columns>
+        <columns>In_bonding_time__c</columns>
+        <columns>Label_ordering_time__c</columns>
+        <columns>Label_printing_checking_time__c</columns>
+        <columns>Label_dispatch_to_bonded_wh_time__c</columns>
+        <columns>Labeling_queuing_time__c</columns>
+        <columns>Labeling_time__c</columns>
+        <columns>Ex_bonding_time__c</columns>
+        <columns>In_country_transit_time__c</columns>
+        <columns>WH_Checking_process_time__c</columns>
+        <columns>Shrink_wrapping_time__c</columns>
+        <columns>Receipting_time__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>SLA Franchise</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>SLA</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

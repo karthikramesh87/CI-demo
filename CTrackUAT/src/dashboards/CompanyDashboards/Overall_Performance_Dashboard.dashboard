@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <legendPosition>Bottom</legendPosition>
+            <report>unfiled$public/Overall_Performance_Report_w</report>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Planned Vs Delivered Shipments</title>
+        </components>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <legendPosition>Bottom</legendPosition>
+            <report>unfiled$public/Overall_Performance_Report_w</report>
+            <sortBy>RowLabelAscending</sortBy>
+        </components>
+    </leftSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <displayUnits>Auto</displayUnits>
+            <legendPosition>Bottom</legendPosition>
+            <report>unfiled$public/Overall_Performance_Report_w</report>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Overall Performance</title>
+        </components>
+    </rightSection>
+    <runningUser>karthik.ramesh2@ctrack.jnj.ctrackuat</runningUser>
+    <textColor>#000000</textColor>
+    <title>Overall Performance Dashboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

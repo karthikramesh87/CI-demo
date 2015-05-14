@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <masterLabel>Avg Inbonding</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA10</developerName>
+        <isActive>true</isActive>
+        <masterLabel>SLA Receipting Time</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <masterLabel>Avg Exbonding</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA3</developerName>
+        <isActive>true</isActive>
+        <masterLabel>Avg In-country Transit</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA4</developerName>
+        <isActive>true</isActive>
+        <masterLabel>Avg WH Checking</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA5</developerName>
+        <isActive>true</isActive>
+        <masterLabel>Avg Receipting</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA6</developerName>
+        <isActive>true</isActive>
+        <masterLabel>SLA Inbonding Time</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA7</developerName>
+        <isActive>true</isActive>
+        <masterLabel>SLA Exbonding Time</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA8</developerName>
+        <isActive>true</isActive>
+        <masterLabel>SLA Incountry Time</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>INVALID_FORMULA</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA9</developerName>
+        <isActive>true</isActive>
+        <masterLabel>SLA WH Checking Time</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Overall Lead Time</name>
+    <reportType>CustomEntity$Airway_Shipment__c@Airway_Shipment__c.Franchise__c</reportType>
+    <showDetails>false</showDetails>
+</Report>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Airway/Shipment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Airways/Shipments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Tentative Availability Date --></label>
+        <name>Actual_Availability_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval by QA Time --></label>
+        <name>Approval_by_QA_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Date --></label>
+        <name>Arrival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ass Val --></label>
+        <name>Ass_Val__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill of Entry --></label>
+        <name>Bill_of_Entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bond Number --></label>
+        <name>Bond_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bounce Flag --></help>
+        <label><!-- Bounce Flag --></label>
+        <name>Bounce_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category of Shipment --></label>
+        <name>Category_of_Shipment__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional</masterLabel>
+            <translation><!-- Promotional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Chargeable Wt. --></label>
+        <name>Chargeable_Wt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Container ID --></label>
+        <name>Container_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demurrage Reason --></label>
+        <name>Demurrage_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demurrage value --></label>
+        <name>Demurrage_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Bonding  WH Time --></label>
+        <name>Disp_Bond_WH_Tm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Agreed ETA on Arrival Date --></help>
+        <label><!-- ETA as per SLA --></label>
+        <name>ETA_as_per_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ex-bonding Email counter --></label>
+        <name>Ex_bnd_Eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exbonding Time --></label>
+        <name>ExbondTm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exbond Date --></label>
+        <name>Exbond_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exbonding breach --></label>
+        <name>Exbondbreach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exbonding counter --></label>
+        <name>Exbonding_counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Franchise --></label>
+        <name>Franchise__c</name>
+        <relationshipLabel><!-- Airways/Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Freight Forwarder --></label>
+        <name>Freight_Forwarder__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL LOGISTICS</masterLabel>
+            <translation><!-- DHL LOGISTICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NIPPON</masterLabel>
+            <translation><!-- NIPPON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PANALPINA</masterLabel>
+            <translation><!-- PANALPINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-NET</masterLabel>
+            <translation><!-- S-NET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCHENKER</masterLabel>
+            <translation><!-- SCHENKER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS SCS</masterLabel>
+            <translation><!-- UPS SCS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gross Wt. --></label>
+        <name>Gross_Wt__c</name>
+    </fields>
+    <fields>
+        <label><!-- HAWB Date --></label>
+        <name>HAWB_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HAWB Number --></label>
+        <name>HAWB_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home/Bond --></label>
+        <name>Home_Bond__c</name>
+        <picklistValues>
+            <masterLabel>Bond</masterLabel>
+            <translation><!-- Bond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Imports Issues --></label>
+        <name>Imports_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Imports Remarks --></label>
+        <name>Imports_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Imports Status --></label>
+        <name>Imports_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- In Country Transit Time --></label>
+        <name>InCtryTranTm__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-country transit email counter --></label>
+        <name>In_cntry_trans_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbonding Time --></label>
+        <name>InbondTm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbond Date --></label>
+        <name>Inbond_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbonding breach --></label>
+        <name>Inbondbreach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbonding Counter --></label>
+        <name>Inbonding_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbonding Email counter --></label>
+        <name>Inbonding_Email_counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incountry Counter --></label>
+        <name>Incountry_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- In country transit breach --></label>
+        <name>Inctrytranbreach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Dt. --></label>
+        <name>Invoice_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number/Range --></label>
+        <name>Invoice_Number_Range__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Desc --></label>
+        <name>Item_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Dispatch Email Counter --></label>
+        <name>Label_Disp_Eml_Cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Order Approval by QA Date --></label>
+        <name>Label_Order_Approval_by_QA_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Order breach --></label>
+        <name>Label_Order_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Order counter --></label>
+        <name>Label_Order_counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Ordering Time --></label>
+        <name>Label_Ordering_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Print Date --></label>
+        <name>Label_Print_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Printing email counter --></label>
+        <name>Label_Print_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Printing Counter --></label>
+        <name>Label_Printing_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Printing Time --></label>
+        <name>Label_Printing_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Queue Email Counter --></label>
+        <name>Label_Q_Eml_Cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Queue Counter --></label>
+        <name>Label_Queue_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Time Email Counter --></label>
+        <name>Label_Tm_Eml_Cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label dispatch Counter --></label>
+        <name>Label_dispatch_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label order Date --></label>
+        <name>Label_order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label ordering email counter --></label>
+        <name>Label_ordr_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label printing breach --></label>
+        <name>Label_printing_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label queue breach --></label>
+        <name>Label_queue_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling Counter --></label>
+        <name>Labeling_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling Remarks --></label>
+        <name>Labeling_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling Time --></label>
+        <name>Labeling_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling Warehouse --></label>
+        <name>Labeling_Warehouse__c</name>
+        <picklistValues>
+            <masterLabel>DHL Chennai</masterLabel>
+            <translation><!-- DHL Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logtech</masterLabel>
+            <translation><!-- Logtech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Labeling status --></label>
+        <name>Labeling_status__c</name>
+        <picklistValues>
+            <masterLabel>Available with Anoption</masterLabel>
+            <translation><!-- Available with Anoption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available with Bhiwandi</masterLabel>
+            <translation><!-- Available with Bhiwandi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available with DHL</masterLabel>
+            <translation><!-- Available with DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available with Logtech</masterLabel>
+            <translation><!-- Available with Logtech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labeling Planned for Today</masterLabel>
+            <translation><!-- Labeling Planned for Today --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order not placed by SC</masterLabel>
+            <translation><!-- Order not placed by SC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Label Check Compl. On --></label>
+        <name>Lbl_Chk_Compl_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Dispatched To Bonded WH Date --></label>
+        <name>Lbl_Disp_Bond_WH_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling Start Date --></label>
+        <name>Lbl_Strt_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label End Date --></label>
+        <name>Lbl_end_dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Dispatched breach --></label>
+        <name>Lbldispbreach__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAWB Number --></label>
+        <name>MAWB_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Pallets / Boxes --></label>
+        <name>No_of_Pallets_Boxes__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of packages --></label>
+        <name>No_of_packages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Order Number --></label>
+        <name>Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Custom Clearance Time --></label>
+        <name>Overall_Custom_Clearance_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phys. Check Compl. On --></label>
+        <name>Phys_Check_Compl_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port of Shipment --></label>
+        <name>Port_of_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting Counter --></label>
+        <name>Receipting_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting breach --></label>
+        <name>Receipting_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting email counter --></label>
+        <name>Receipting_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting in system --></label>
+        <name>Receipting_in_system__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipting time --></label>
+        <name>Receipting_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Received Date --></label>
+        <name>Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SC remarks --></label>
+        <name>SC_remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Transit Time --></label>
+        <name>Shipment_Transit_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shrink Wrapping email counter --></label>
+        <name>Shrink_Wrap_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shrink Wrapping breach --></label>
+        <name>Shrink_Wrapping_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shrink Wrapping completion date --></label>
+        <name>Shrink_Wrapping_completion_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shrink Wrapping time --></label>
+        <name>Shrink_Wrapping_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Update Date --></label>
+        <name>Status_Update_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Arrival</masterLabel>
+            <translation><!-- Awaiting Arrival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exbonding done</masterLabel>
+            <translation><!-- Exbonding done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR in system done</masterLabel>
+            <translation><!-- GR in system done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbonding done</masterLabel>
+            <translation><!-- Inbonding done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labeling done</masterLabel>
+            <translation><!-- Labeling done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under clearance</masterLabel>
+            <translation><!-- Under clearance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-category of shipment --></label>
+        <name>Sub_category_of_shipment__c</name>
+        <picklistValues>
+            <masterLabel>Common</masterLabel>
+            <translation><!-- Common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FG</masterLabel>
+            <translation><!-- FG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM</masterLabel>
+            <translation><!-- RM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spares</masterLabel>
+            <translation><!-- Spares --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms of Delivery --></label>
+        <name>Terms_of_Delivery__c</name>
+        <picklistValues>
+            <masterLabel>CIF</masterLabel>
+            <translation><!-- CIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIP</masterLabel>
+            <translation><!-- CIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNF</masterLabel>
+            <translation><!-- CNF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAP</masterLabel>
+            <translation><!-- DAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DDP</masterLabel>
+            <translation><!-- DDP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXworks</masterLabel>
+            <translation><!-- EXworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOB</masterLabel>
+            <translation><!-- FOB --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total No. of Labels --></label>
+        <name>Total_No_of_Labels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH Checking time --></label>
+        <name>WH_Checking_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH Remarks --></label>
+        <name>WH_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH checking email counter --></label>
+        <name>WH_check_eml_cntr__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH checking breach --></label>
+        <name>WH_checking_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- WH checking counter --></label>
+        <name>WH_checking_counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label time breach --></label>
+        <name>label_time_breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeling queuing time --></label>
+        <name>lbl_que_tm__c</name>
+    </fields>
+    <fields>
+        <label><!-- overall counter --></label>
+        <name>overall_counter__c</name>
+    </fields>
+    <layouts>
+        <layout>Airway/Shipment Layout</layout>
+        <sections>
+            <label><!-- Activity Breaches --></label>
+            <section>Activity Breaches</section>
+        </sections>
+        <sections>
+            <label><!-- Activity Counters --></label>
+            <section>Activity Counters</section>
+        </sections>
+        <sections>
+            <label><!-- Activity Dates --></label>
+            <section>Activity Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Activity Email Counters --></label>
+            <section>Activity Email Counters</section>
+        </sections>
+        <sections>
+            <label><!-- Activity Time --></label>
+            <section>Activity Time</section>
+        </sections>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CLS Shipment Layout</layout>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Imports Information --></label>
+            <section>Imports Information</section>
+        </sections>
+        <sections>
+            <label><!-- Labeling Information --></label>
+            <section>Labeling Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Imports Shipment Layout</layout>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Labeling Shipment Layout</layout>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SC Shipment Layout</layout>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>WH Shipment Layout</layout>
+        <sections>
+            <label><!-- Airway/Shipment Information --></label>
+            <section>Airway/Shipment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Label Order Approval by QA Date cannot be earlier than Label print date --></errorMessage>
+        <name>Approval_By_QA_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Label Dispatched to Bonded WH Date cannot be earlier than Label Order Approval by QA Date. --></errorMessage>
+        <name>Dispatched_To_Bonded_WH_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Exbond date cannot be earlier than Labeling End Date --></errorMessage>
+        <name>Exbonding_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In-Bond date cannot be earlier than Arrival Date --></errorMessage>
+        <name>In_Bonding_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Received date cannot be earlier than Exbond Date --></errorMessage>
+        <name>In_Country_Transit_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Labeling order date cannot be earlier than Invoice date --></errorMessage>
+        <name>Label_Ordering_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Label print date cannot be earlier than label order date --></errorMessage>
+        <name>Label_Printing_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Labeling End Date cannot be earlier than Labeling Start Date --></errorMessage>
+        <name>Labeling_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Labeling Start Date cannot be earlier than Label Dispatched to Bonded WH Date --></errorMessage>
+        <name>Labeling_queuing_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Exbond date cannot be earlier than Arrival date --></errorMessage>
+        <name>Overall_custom_clearance_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Receipting in system cannot be earlier than Label Checking Compl On date --></errorMessage>
+        <name>Receipting_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Arrival date cannot be earlier than Invoice date --></errorMessage>
+        <name>Shipment_transit_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shrink Wrapping completion date cannot be earlier than Physical check completion date --></errorMessage>
+        <name>Shrink_Wrapping_Time_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shrink Wrapping Completion Date is applicable only for Franchise &apos;Ethicon&apos;. --></errorMessage>
+        <name>Shrink_Wrapping_for_Ethicon</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status update date cannot be earlier than Invoice date. --></errorMessage>
+        <name>Status_update_date_Calc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Physical Check Completion date cannot be earlier than Received date --></errorMessage>
+        <name>WH_Checking_Time_Calc</name>
+    </validationRules>
+</CustomObjectTranslation>

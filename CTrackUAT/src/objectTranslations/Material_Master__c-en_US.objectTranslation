@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Material Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Material Master</value>
+    </caseValues>
+    <fields>
+        <label><!-- Brands --></label>
+        <name>Brands__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Factor --></label>
+        <name>Conversion_Factor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>ACCLARENT</masterLabel>
+            <translation><!-- ACCLARENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALL OTHER PROF PROD</masterLabel>
+            <translation><!-- ALL OTHER PROF PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOSENSE WEBSTER</masterLabel>
+            <translation><!-- BIOSENSE WEBSTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOSURGERY</masterLabel>
+            <translation><!-- BIOSURGERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREAST CARE</masterLabel>
+            <translation><!-- BREAST CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMF</masterLabel>
+            <translation><!-- CMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY CODMAN</masterLabel>
+            <translation><!-- DEPUY CODMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY MITEK</masterLabel>
+            <translation><!-- DEPUY MITEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY ORTHO</masterLabel>
+            <translation><!-- DEPUY ORTHO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY SPINE</masterLabel>
+            <translation><!-- DEPUY SPINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY TRAUMA</masterLabel>
+            <translation><!-- DEPUY TRAUMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DES</masterLabel>
+            <translation><!-- DES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DISINFECTION</masterLabel>
+            <translation><!-- DISINFECTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENDO MECHANICAL</masterLabel>
+            <translation><!-- ENDO MECHANICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENDOVASCULAR</masterLabel>
+            <translation><!-- ENDOVASCULAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENERGY</masterLabel>
+            <translation><!-- ENERGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETHICON PRODUCTS</masterLabel>
+            <translation><!-- ETHICON PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIFESCAN</masterLabel>
+            <translation><!-- LIFESCAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MENTOR</masterLabel>
+            <translation><!-- MENTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER CARDIOLOGY</masterLabel>
+            <translation><!-- OTHER CARDIOLOGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POWER TOOLS</masterLabel>
+            <translation><!-- POWER TOOLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPINE</masterLabel>
+            <translation><!-- SPINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STERRAD EQUIPMENT</masterLabel>
+            <translation><!-- STERRAD EQUIPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAUMA AND OTHERS</masterLabel>
+            <translation><!-- TRAUMA AND OTHERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOMENS HEALTH &amp; UROLOGY</masterLabel>
+            <translation><!-- WOMENS HEALTH &amp; UROLOGY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Franchise --></label>
+        <name>Franchise__c</name>
+        <picklistValues>
+            <masterLabel>ACCLARENT</masterLabel>
+            <translation><!-- ACCLARENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASP</masterLabel>
+            <translation><!-- ASP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOSURGERY</masterLabel>
+            <translation><!-- BIOSURGERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORDIS</masterLabel>
+            <translation><!-- CORDIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPUY</masterLabel>
+            <translation><!-- DEPUY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENERGY</masterLabel>
+            <translation><!-- ENERGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETHICON SURGICAL CARE</masterLabel>
+            <translation><!-- ETHICON SURGICAL CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIFESCAN</masterLabel>
+            <translation><!-- LIFESCAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MENTOR</masterLabel>
+            <translation><!-- MENTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNTHES</masterLabel>
+            <translation><!-- SYNTHES --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Material Description --></label>
+        <name>Material_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Price Group --></label>
+        <name>Material_Price_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Heirarchy --></label>
+        <name>Product_Heirarchy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>ACCESSORIES</masterLabel>
+            <translation><!-- ACCESSORIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACCLARENT PRODUCTS</masterLabel>
+            <translation><!-- ACCLARENT PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACDF</masterLabel>
+            <translation><!-- ACDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACP</masterLabel>
+            <translation><!-- ACP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADHESION PREVENTION</masterLabel>
+            <translation><!-- ADHESION PREVENTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALIF</masterLabel>
+            <translation><!-- ALIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALL OTHER PROF PRODUCTS</masterLabel>
+            <translation><!-- ALL OTHER PROF PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALTERNATIVE POSTERIOR STABILIZATION</masterLabel>
+            <translation><!-- ALTERNATIVE POSTERIOR STABILIZATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANSPACH SYSTEMS</masterLabel>
+            <translation><!-- ANSPACH SYSTEMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANTERIOR CERVICAL FUSION</masterLabel>
+            <translation><!-- ANTERIOR CERVICAL FUSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANTISEPTICS</masterLabel>
+            <translation><!-- ANTISEPTICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BALLOON</masterLabel>
+            <translation><!-- BALLOON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BENGAL</masterLabel>
+            <translation><!-- BENGAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOCIDES - DETERGENT</masterLabel>
+            <translation><!-- BIOCIDES - DETERGENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOCIDES - DISINFECTION</masterLabel>
+            <translation><!-- BIOCIDES - DISINFECTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOMATERIALS</masterLabel>
+            <translation><!-- BIOMATERIALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOPATCH</masterLabel>
+            <translation><!-- BIOPATCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOSURGERY</masterLabel>
+            <translation><!-- BIOSURGERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BODY AESTHETICS</masterLabel>
+            <translation><!-- BODY AESTHETICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BONE CEMENT</masterLabel>
+            <translation><!-- BONE CEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BONE GRAFT SUBSTITUTES</masterLabel>
+            <translation><!-- BONE GRAFT SUBSTITUTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BONE SUBSTITUTES FOR SPINE</masterLabel>
+            <translation><!-- BONE SUBSTITUTES FOR SPINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREAST AESTHETICS</masterLabel>
+            <translation><!-- BREAST AESTHETICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREAST CARE</masterLabel>
+            <translation><!-- BREAST CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREMER HALO</masterLabel>
+            <translation><!-- BREMER HALO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD &amp; POWER DRIVE</masterLabel>
+            <translation><!-- CAD &amp; POWER DRIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANNULATED SCREWS</masterLabel>
+            <translation><!-- CANNULATED SCREWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAS</masterLabel>
+            <translation><!-- CAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASES</masterLabel>
+            <translation><!-- CASES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CERVICAL TDR</masterLabel>
+            <translation><!-- CERVICAL TDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARITE</masterLabel>
+            <translation><!-- CHARITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLOSURE DEVICE</masterLabel>
+            <translation><!-- CLOSURE DEVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLIBRI</masterLabel>
+            <translation><!-- COLIBRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCORDE</masterLabel>
+            <translation><!-- CONCORDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCORDE BULLET</masterLabel>
+            <translation><!-- CONCORDE BULLET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONFIDENCE</masterLabel>
+            <translation><!-- CONFIDENCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUSTOM-MADE DEVICE</masterLabel>
+            <translation><!-- CUSTOM-MADE DEVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUSTOMIZED SURGICAL SOLUTIONS</masterLabel>
+            <translation><!-- CUSTOMIZED SURGICAL SOLUTIONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUTTING TOOLS</masterLabel>
+            <translation><!-- CUTTING TOOLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DENTAL</masterLabel>
+            <translation><!-- DENTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEVEX</masterLabel>
+            <translation><!-- DEVEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHS</masterLabel>
+            <translation><!-- DHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIAG. CATHETERS</masterLabel>
+            <translation><!-- DIAG. CATHETERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIAG. GUIDEWIRES</masterLabel>
+            <translation><!-- DIAG. GUIDEWIRES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DISCONTINUED PRODUCTS</masterLabel>
+            <translation><!-- DISCONTINUED PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DISCOVER</masterLabel>
+            <translation><!-- DISCOVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DISTRACTION</masterLabel>
+            <translation><!-- DISTRACTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAGLE</masterLabel>
+            <translation><!-- EAGLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAGLE PLUS</masterLabel>
+            <translation><!-- EAGLE PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENDO</masterLabel>
+            <translation><!-- ENDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENERGY</masterLabel>
+            <translation><!-- ENERGY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EP WOUND CARE</masterLabel>
+            <translation><!-- EP WOUND CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPOCA SHOULDER</masterLabel>
+            <translation><!-- EPOCA SHOULDER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQUIPMENT</masterLabel>
+            <translation><!-- EQUIPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPEDIUM</masterLabel>
+            <translation><!-- EXPEDIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXTERNAL FIXATION</masterLabel>
+            <translation><!-- EXTERNAL FIXATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXTREMITIES</masterLabel>
+            <translation><!-- EXTREMITIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACIAL AESTHETICS</masterLabel>
+            <translation><!-- FACIAL AESTHETICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIXATION DEVICES</masterLabel>
+            <translation><!-- FIXATION DEVICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOOT &amp; ANKLE</masterLabel>
+            <translation><!-- FOOT &amp; ANKLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRONTIER</masterLabel>
+            <translation><!-- FRONTIER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GASTRIC BAND</masterLabel>
+            <translation><!-- GASTRIC BAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERAL INSTRUMENTS</masterLabel>
+            <translation><!-- GENERAL INSTRUMENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERAL WOUND CARE</masterLabel>
+            <translation><!-- GENERAL WOUND CARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GUIDEWIRE</masterLabel>
+            <translation><!-- GUIDEWIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GUIDING CATHETERS</masterLabel>
+            <translation><!-- GUIDING CATHETERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAND</masterLabel>
+            <translation><!-- HAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAND HYGIENE</masterLabel>
+            <translation><!-- HAND HYGIENE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCS</masterLabel>
+            <translation><!-- HCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEMOSTASIS</masterLabel>
+            <translation><!-- HEMOSTASIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIP RECONSTRUCTION</masterLabel>
+            <translation><!-- HIP RECONSTRUCTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HZI</masterLabel>
+            <translation><!-- HZI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INCONTINENCE</masterLabel>
+            <translation><!-- INCONTINENCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTRAMEDULLARY NAILING</masterLabel>
+            <translation><!-- INTRAMEDULLARY NAILING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISOLA</masterLabel>
+            <translation><!-- ISOLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVC FILTERS</masterLabel>
+            <translation><!-- IVC FILTERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KASS</masterLabel>
+            <translation><!-- KASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNEE RECONSTRUCTION</masterLabel>
+            <translation><!-- KNEE RECONSTRUCTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARGE FRAGMENTS</masterLabel>
+            <translation><!-- LARGE FRAGMENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEOPARD</masterLabel>
+            <translation><!-- LEOPARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIFESCAN OTHER</masterLabel>
+            <translation><!-- LIFESCAN OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LUMBAR IB FUSION</masterLabel>
+            <translation><!-- LUMBAR IB FUSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M-M PEDIATRIC</masterLabel>
+            <translation><!-- M-M PEDIATRIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANDIBLE</masterLabel>
+            <translation><!-- MANDIBLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MECHANICAL</masterLabel>
+            <translation><!-- MECHANICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MESH</masterLabel>
+            <translation><!-- MESH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MESHES</masterLabel>
+            <translation><!-- MESHES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MICRO CATHETER</masterLabel>
+            <translation><!-- MICRO CATHETER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIDFACE</masterLabel>
+            <translation><!-- MIDFACE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISC</masterLabel>
+            <translation><!-- MISC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK ANCHORS</masterLabel>
+            <translation><!-- MITEK ANCHORS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK FLUID MANAGEMENT</masterLabel>
+            <translation><!-- MITEK FLUID MANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK KNEE SYSTEMS</masterLabel>
+            <translation><!-- MITEK KNEE SYSTEMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK SHAVERS</masterLabel>
+            <translation><!-- MITEK SHAVERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK SMALL JOINTS</masterLabel>
+            <translation><!-- MITEK SMALL JOINTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MITEK TISSUE MANAGEMENT</masterLabel>
+            <translation><!-- MITEK TISSUE MANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MM SI</masterLabel>
+            <translation><!-- MM SI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOSS MIAMI</masterLabel>
+            <translation><!-- MOSS MIAMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAVIGATION CONSUMABLES</masterLabel>
+            <translation><!-- NAVIGATION CONSUMABLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEURO</masterLabel>
+            <translation><!-- NEURO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEURO ENDOVASCULAR</masterLabel>
+            <translation><!-- NEURO ENDOVASCULAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEURO SURGERY</masterLabel>
+            <translation><!-- NEURO SURGERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOGA</masterLabel>
+            <translation><!-- NOGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NON-NAVIGATION CONSUMABLES</masterLabel>
+            <translation><!-- NON-NAVIGATION CONSUMABLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD MACHINES</masterLabel>
+            <translation><!-- OLD MACHINES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD PRODUCTS (CMF)</masterLabel>
+            <translation><!-- OLD PRODUCTS (CMF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD PRODUCTS (GO)</masterLabel>
+            <translation><!-- OLD PRODUCTS (GO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OLD PRODUCTS (SPINE)</masterLabel>
+            <translation><!-- OLD PRODUCTS (SPINE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORTHOPEDICS</masterLabel>
+            <translation><!-- ORTHOPEDICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER GYNECARE</masterLabel>
+            <translation><!-- OTHER GYNECARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER RECONSTRUCTION</masterLabel>
+            <translation><!-- OTHER RECONSTRUCTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PELVIC AND JOINT</masterLabel>
+            <translation><!-- PELVIC AND JOINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEN-SHAPED SYSTEMS</masterLabel>
+            <translation><!-- PEN-SHAPED SYSTEMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIEZO ELECTRIC SYSTEMS</masterLabel>
+            <translation><!-- PIEZO ELECTRIC SYSTEMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLIF</masterLabel>
+            <translation><!-- PLIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POCT</masterLabel>
+            <translation><!-- POCT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POSTERIOR CERVICAL</masterLabel>
+            <translation><!-- POSTERIOR CERVICAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POSTERIOR INSTRUMENTS AND IMPLANTS</masterLabel>
+            <translation><!-- POSTERIOR INSTRUMENTS AND IMPLANTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POSTERIOR L FIXATION</masterLabel>
+            <translation><!-- POSTERIOR L FIXATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POWER LINE MACHINES</masterLabel>
+            <translation><!-- POWER LINE MACHINES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTA BALLOONS</masterLabel>
+            <translation><!-- PTA BALLOONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE-ENTRY CATHETER</masterLabel>
+            <translation><!-- RE-ENTRY CATHETER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMAINING STOCK</masterLabel>
+            <translation><!-- REMAINING STOCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESORBABLE FIXATION SYSTEM</masterLabel>
+            <translation><!-- RESORBABLE FIXATION SYSTEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SABER</masterLabel>
+            <translation><!-- SABER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAWS</masterLabel>
+            <translation><!-- SAWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICE</masterLabel>
+            <translation><!-- SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHEATHS</masterLabel>
+            <translation><!-- SHEATHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKIN PREPARATION</masterLabel>
+            <translation><!-- SKIN PREPARATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMALL FRAGMENTS</masterLabel>
+            <translation><!-- SMALL FRAGMENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMBG</masterLabel>
+            <translation><!-- SMBG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOFWIRE</masterLabel>
+            <translation><!-- SOFWIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SONGER</masterLabel>
+            <translation><!-- SONGER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPINAL INSTRUMENTS</masterLabel>
+            <translation><!-- SPINAL INSTRUMENTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STEERABLE GUIDEWIRES</masterLabel>
+            <translation><!-- STEERABLE GUIDEWIRES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STENT</masterLabel>
+            <translation><!-- STENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STERRAD CONSUMABLES</masterLabel>
+            <translation><!-- STERRAD CONSUMABLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STERRAD EQUIPMENT</masterLabel>
+            <translation><!-- STERRAD EQUIPMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUMMIT SI</masterLabel>
+            <translation><!-- SUMMIT SI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUTURES</masterLabel>
+            <translation><!-- SUTURES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TECHNICAL SERVICE</masterLabel>
+            <translation><!-- TECHNICAL SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THORAX</masterLabel>
+            <translation><!-- THORAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TL FRACTURES/TUMORS/INFECTION</masterLabel>
+            <translation><!-- TL FRACTURES/TUMORS/INFECTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TLS DEFORMITIES</masterLabel>
+            <translation><!-- TLS DEFORMITIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOTAL DISC REPLACEMENT</masterLabel>
+            <translation><!-- TOTAL DISC REPLACEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAUMA</masterLabel>
+            <translation><!-- TRAUMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAUMA RECON SYSTEM</masterLabel>
+            <translation><!-- TRAUMA RECON SYSTEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULTRASOUND CONSUMABLES</masterLabel>
+            <translation><!-- ULTRASOUND CONSUMABLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTERINE DISORDERS</masterLabel>
+            <translation><!-- UTERINE DISORDERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VERTEBROPLASTIC</masterLabel>
+            <translation><!-- VERTEBROPLASTIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VETERINARY</masterLabel>
+            <translation><!-- VETERINARY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIPER</masterLabel>
+            <translation><!-- VIPER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOMENS HEALTH SERVICE CHARGE</masterLabel>
+            <translation><!-- WOMENS HEALTH SERVICE CHARGE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UoM --></label>
+        <name>UoM__c</name>
+    </fields>
+    <layouts>
+        <layout>Material Master Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Material Master --></label>
+            <section>Material Master</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

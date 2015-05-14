@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Airway_Shipment__c</fullName>
+        <label>Airway/Shipment</label>
+        <referenceTo>Airway_Shipment__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Bond_Number__c</fullName>
+        <formula>Airway_Shipment__r.Bond_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Bond Number</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Dt__c</fullName>
+        <formula>Airway_Shipment__r.Status_Update_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Update Dt.</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <formula>Text(Airway_Shipment__r.Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <type>Text</type>
+    </fields>
+    <label>Invoice</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Airway_Shipment__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Invoice Number</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Invoices</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Airway_Shipment__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Airway_Shipment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Bond_Number__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

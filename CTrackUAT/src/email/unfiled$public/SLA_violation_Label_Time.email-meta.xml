@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification when SLA for a Franchise is breached on a Shipment level for Label Time</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SLA violation - Label Time</name>
+    <style>none</style>
+    <subject>SLA Violation for shipment - [{!Airway_Shipment__c.Name}]  Invoice - [{!Airway_Shipment__c.Invoice_Number_Range__c}]  Day -[{!Airway_Shipment__c.Label_Tm_Eml_Cntr__c}]</subject>
+    <type>text</type>
+</EmailTemplate>

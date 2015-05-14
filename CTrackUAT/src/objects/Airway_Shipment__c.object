@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Actual_Availability_Date__c</fullName>
+        <label>Tentative Availability Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Approval_by_QA_Time__c</fullName>
+        <formula>IF(ISNULL(Label_Order_Approval_by_QA_Date__c ) &amp;&amp; ISBLANK(Label_Order_Approval_by_QA_Date__c ) , (TODAY() - Label_Print_Date__c), (Label_Order_Approval_by_QA_Date__c -  Label_Print_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval by QA Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Arrival_Date__c</fullName>
+        <label>Arrival Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ass_Val__c</fullName>
+        <label>Ass Val</label>
+        <precision>10</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Bill_of_Entry__c</fullName>
+        <label>Bill of Entry</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Bond_Number__c</fullName>
+        <label>Bond Number</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Bounce_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Bounce Flag</description>
+        <inlineHelpText>Bounce Flag</inlineHelpText>
+        <label>Bounce Flag</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Category_of_Shipment__c</fullName>
+        <label>Category of Shipment</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Commercial</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sample</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Chargeable_Wt__c</fullName>
+        <label>Chargeable Wt.</label>
+        <precision>10</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <label>Comments</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Container_ID__c</fullName>
+        <label>Container ID</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Demurrage_Reason__c</fullName>
+        <label>Demurrage Reason</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Demurrage_value__c</fullName>
+        <label>Demurrage value</label>
+        <precision>5</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Disp_Bond_WH_Tm__c</fullName>
+        <formula>IF(ISNULL(Lbl_Disp_Bond_WH_Dt__c ) &amp;&amp; ISBLANK(Lbl_Disp_Bond_WH_Dt__c ) , (TODAY() - Label_Order_Approval_by_QA_Date__c), (Lbl_Disp_Bond_WH_Dt__c -  Label_Order_Approval_by_QA_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dispatch Bonding  WH Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ETA_as_per_SLA__c</fullName>
+        <description>Agreed ETA on Arrival Date</description>
+        <formula>Arrival_Date__c + Franchise__r.Agreed_ETA__c</formula>
+        <inlineHelpText>Agreed ETA on Arrival Date</inlineHelpText>
+        <label>ETA as per SLA</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Ex_bnd_Eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Ex-bonding Email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ExbondTm__c</fullName>
+        <formula>IF(ISNULL(Exbond_Date__c ) &amp;&amp; ISBLANK(Exbond_Date__c ) , (TODAY() - Lbl_end_dt__c), (Exbond_Date__c -  Lbl_end_dt__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exbonding Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Exbond_Date__c</fullName>
+        <label>Exbond Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exbondbreach__c</fullName>
+        <formula>IF((ExbondTm__c - Franchise__r.Ex_bonding_time__c) &gt; 0,(ExbondTm__c - Franchise__r.Ex_bonding_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exbonding breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Exbonding_counter__c</fullName>
+        <formula>IF( Exbondbreach__c != 0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exbonding counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Franchise__c</fullName>
+        <label>Franchise</label>
+        <referenceTo>SLA__c</referenceTo>
+        <relationshipLabel>Airways/Shipments</relationshipLabel>
+        <relationshipName>Airways_Shipments</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Freight_Forwarder__c</fullName>
+        <label>Freight Forwarder</label>
+        <picklist>
+            <picklistValues>
+                <fullName>DHL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DHL LOGISTICS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NIPPON</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PANALPINA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>S-NET</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SCHENKER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UPS SCS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Gross_Wt__c</fullName>
+        <label>Gross Wt.</label>
+        <precision>10</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>HAWB_Date__c</fullName>
+        <label>HAWB Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HAWB_Number__c</fullName>
+        <label>HAWB Number</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Home_Bond__c</fullName>
+        <label>Home/Bond</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Home</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bond</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Imports_Issues__c</fullName>
+        <label>Imports Issues</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Imports_Remarks__c</fullName>
+        <label>Imports Remarks</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Imports_Status__c</fullName>
+        <label>Imports Status</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InCtryTranTm__c</fullName>
+        <formula>IF(ISNULL(Received_Date__c ) &amp;&amp; ISBLANK(Received_Date__c ) , (TODAY() - Exbond_Date__c), (Received_Date__c -  Exbond_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In Country Transit Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>In_cntry_trans_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>In-country transit email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>InbondTm__c</fullName>
+        <formula>IF(ISNULL(Inbond_Date__c ) &amp;&amp; ISBLANK(Inbond_Date__c ) , (TODAY() - Arrival_Date__c), (Inbond_Date__c -  Arrival_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Inbonding Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Inbond_Date__c</fullName>
+        <label>Inbond Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Inbondbreach__c</fullName>
+        <formula>IF((InbondTm__c - Franchise__r.In_bonding_time__c) &gt; 0,(InbondTm__c - Franchise__r.In_bonding_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Inbonding breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Inbonding_Counter__c</fullName>
+        <formula>If( Inbondbreach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Inbonding Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Inbonding_Email_counter__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Inbonding Email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Incountry_Count__c</fullName>
+        <formula>IF( Inctrytranbreach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Incountry Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Inctrytranbreach__c</fullName>
+        <formula>IF((InCtryTranTm__c - Franchise__r.In_country_transit_time__c) &gt; 0,(InCtryTranTm__c - Franchise__r.In_country_transit_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>In country transit breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Dt__c</fullName>
+        <label>Invoice Dt.</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Number_Range__c</fullName>
+        <label>Invoice Number/Range</label>
+        <length>40</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Item_Desc__c</fullName>
+        <label>Item Desc</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Label_Disp_Eml_Cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Label Dispatch Email Counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Order_Approval_by_QA_Date__c</fullName>
+        <label>Label Order Approval by QA Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Label_Order_breach__c</fullName>
+        <formula>IF((Label_Ordering_Time__c - Franchise__r.Label_ordering_time__c) &gt; 0,(Label_Ordering_Time__c - Franchise__r.Label_ordering_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Order breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Order_counter__c</fullName>
+        <formula>IF( Label_Order_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Order counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Ordering_Time__c</fullName>
+        <formula>IF(ISNULL(Label_order_Date__c ) &amp;&amp; ISBLANK(Label_order_Date__c ) , (TODAY() - Invoice_Dt__c), (Label_order_Date__c -  Invoice_Dt__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Ordering Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Print_Date__c</fullName>
+        <label>Label Print Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Label_Print_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Label Printing email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Printing_Counter__c</fullName>
+        <formula>IF( Label_printing_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Printing Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Printing_Time__c</fullName>
+        <formula>IF(ISNULL(Label_Print_Date__c ) &amp;&amp; ISBLANK(Label_Print_Date__c ) , (TODAY() - Label_order_Date__c), (Label_Print_Date__c -  Label_order_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Printing Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Q_Eml_Cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Label Queue Email Counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Queue_Counter__c</fullName>
+        <formula>IF( Label_queue_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Queue Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_Tm_Eml_Cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Label Time Email Counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_dispatch_Counter__c</fullName>
+        <formula>IF( Lbldispbreach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label dispatch Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_order_Date__c</fullName>
+        <label>Label order Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Label_ordr_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Label ordering email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_printing_breach__c</fullName>
+        <formula>IF((Label_Printing_Time__c - Franchise__r.Label_printing_checking_time__c) &gt; 0,(Label_Printing_Time__c - Franchise__r.Label_printing_checking_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label printing breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Label_queue_breach__c</fullName>
+        <formula>IF((lbl_que_tm__c - Franchise__r.Labeling_queuing_time__c) &gt; 0,(lbl_que_tm__c - Franchise__r.Labeling_queuing_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label queue breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_Counter__c</fullName>
+        <formula>IF( label_time_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Labeling Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_Remarks__c</fullName>
+        <label>Labeling Remarks</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_Time__c</fullName>
+        <formula>IF(ISNULL(Lbl_end_dt__c) &amp;&amp; ISBLANK(Lbl_end_dt__c)  , (TODAY()  - Lbl_Strt_Dt__c), (Lbl_end_dt__c - Lbl_Strt_Dt__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Labeling Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_Warehouse__c</fullName>
+        <label>Labeling Warehouse</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Logtech</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DHL Chennai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Labeling_status__c</fullName>
+        <label>Labeling status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Labeling Planned for Today</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Available with Bhiwandi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order not placed by SC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Available with Logtech</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Available with Anoption</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Available with DHL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lbl_Chk_Compl_On__c</fullName>
+        <label>Label Check Compl. On</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lbl_Disp_Bond_WH_Dt__c</fullName>
+        <label>Label Dispatched To Bonded WH Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lbl_Strt_Dt__c</fullName>
+        <label>Labeling Start Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lbl_end_dt__c</fullName>
+        <label>Label End Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lbldispbreach__c</fullName>
+        <formula>IF((Disp_Bond_WH_Tm__c - Franchise__r.Label_dispatch_to_bonded_wh_time__c) &gt; 0,(Disp_Bond_WH_Tm__c - Franchise__r.Label_dispatch_to_bonded_wh_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Dispatched breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>MAWB_Number__c</fullName>
+        <label>MAWB Number</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>No_of_Pallets_Boxes__c</fullName>
+        <label>No. of Pallets / Boxes</label>
+        <precision>5</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>No_of_packages__c</fullName>
+        <label>No. of packages</label>
+        <precision>10</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Order_Number__c</fullName>
+        <label>Label Order Number</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Overall_Custom_Clearance_Time__c</fullName>
+        <formula>IF(ISNULL(Exbond_Date__c ) &amp;&amp; ISBLANK(Exbond_Date__c ) , (TODAY() - Arrival_Date__c), (Exbond_Date__c - Arrival_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Overall Custom Clearance Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Phys_Check_Compl_On__c</fullName>
+        <label>Phys. Check Compl. On</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Port_of_Shipment__c</fullName>
+        <label>Port of Shipment</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_Counter__c</fullName>
+        <formula>IF( Receipting_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Receipting Counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_breach__c</fullName>
+        <formula>IF((Receipting_time__c - Franchise__r.Receipting_time__c) &gt; 0,(Receipting_time__c - Franchise__r.Receipting_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Receipting breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Receipting email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_in_system__c</fullName>
+        <label>Receipting in system</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Receipting_time__c</fullName>
+        <formula>IF(ISNULL(Receipting_in_system__c) &amp;&amp; ISBLANK(Receipting_in_system__c) , (TODAY() - Lbl_Chk_Compl_On__c), (Receipting_in_system__c - Lbl_Chk_Compl_On__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Receipting time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Received_Date__c</fullName>
+        <label>Shipment Received Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SC_remarks__c</fullName>
+        <label>SC remarks</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Shipment_Transit_Time__c</fullName>
+        <formula>IF(ISNULL( Invoice_Dt__c ) &amp;&amp; ISBLANK( Invoice_Dt__c ) , (TODAY() -  Invoice_Dt__c ), ( Arrival_Date__c - Invoice_Dt__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipment Transit Time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Shrink_Wrap_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Shrink Wrapping email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Shrink_Wrapping_breach__c</fullName>
+        <formula>IF((Shrink_Wrapping_time__c - Franchise__r.Shrink_wrapping_time__c) &gt; 0,(Shrink_Wrapping_time__c - Franchise__r.Shrink_wrapping_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shrink Wrapping breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Shrink_Wrapping_completion_date__c</fullName>
+        <label>Shrink Wrapping completion date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Shrink_Wrapping_time__c</fullName>
+        <formula>IF(ISNULL(Shrink_Wrapping_completion_date__c ) &amp;&amp; Franchise__r.Name = &quot;Ethicon (includes Biosurgery)&quot; &amp;&amp; ISBLANK(Shrink_Wrapping_completion_date__c ) , (TODAY() - Lbl_Chk_Compl_On__c), (Shrink_Wrapping_completion_date__c -  Lbl_Chk_Compl_On__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shrink Wrapping time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Status_Update_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <label>Status Update Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Awaiting Arrival</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Under clearance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inbonding done</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Labeling done</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Exbonding done</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GR in system done</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sub_category_of_shipment__c</fullName>
+        <label>Sub-category of shipment</label>
+        <picklist>
+            <picklistValues>
+                <fullName>FG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spares</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Common</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Supplier__c</fullName>
+        <label>Supplier</label>
+        <length>45</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Terms_of_Delivery__c</fullName>
+        <label>Terms of Delivery</label>
+        <picklist>
+            <picklistValues>
+                <fullName>CIF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CIP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CNF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FOB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EXworks</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DDP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DAP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Total_No_of_Labels__c</fullName>
+        <label>Total No. of Labels</label>
+        <precision>5</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Urgency__c</fullName>
+        <label>Urgency</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>WH_Checking_time__c</fullName>
+        <formula>IF(ISNULL(Lbl_Chk_Compl_On__c) &amp;&amp; ISBLANK(Lbl_Chk_Compl_On__c) , (TODAY() - Received_Date__c), (Lbl_Chk_Compl_On__c -  Received_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WH Checking time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>WH_Remarks__c</fullName>
+        <label>WH Remarks</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>WH_check_eml_cntr__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>WH checking email counter</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>WH_checking_breach__c</fullName>
+        <formula>IF((WH_Checking_time__c - Franchise__r.WH_Checking_process_time__c) &gt; 0,(WH_Checking_time__c - Franchise__r.WH_Checking_process_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WH checking breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>WH_checking_counter__c</fullName>
+        <formula>IF( WH_checking_breach__c !=0,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>WH checking counter</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>label_time_breach__c</fullName>
+        <formula>IF((Labeling_Time__c - Franchise__r.Labeling_time__c) &gt; 0,(Labeling_Time__c - Franchise__r.Labeling_time__c),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label time breach</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>lbl_que_tm__c</fullName>
+        <formula>IF(ISNULL(Lbl_Strt_Dt__c) &amp;&amp; ISBLANK(Lbl_Strt_Dt__c) , (TODAY() -  Lbl_Disp_Bond_WH_Dt__c ), (Lbl_Strt_Dt__c - Lbl_Disp_Bond_WH_Dt__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Labeling queuing time</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>overall_counter__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>overall counter</label>
+        <precision>1</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <label>Airway/Shipment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Invoice_Number_Range__c</columns>
+        <columns>Franchise__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Airway/Shipment Number</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Airways/Shipments</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Invoice_Number_Range__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <searchResultsAdditionalFields>Franchise__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Home_Bond__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Order_Number__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Approval_By_QA_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Label_Order_Approval_by_QA_Date__c &lt;      Label_Print_Date__c</errorConditionFormula>
+        <errorMessage>Label Order Approval by QA Date cannot be earlier than Label print date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Dispatched_To_Bonded_WH_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Lbl_Disp_Bond_WH_Dt__c  &lt;       Label_Order_Approval_by_QA_Date__c</errorConditionFormula>
+        <errorMessage>Label Dispatched to Bonded WH Date cannot be earlier than Label Order Approval by QA Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exbonding_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Exbond_Date__c &lt;   Lbl_end_dt__c</errorConditionFormula>
+        <errorMessage>Exbond date cannot be earlier than Labeling End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>In_Bonding_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Inbond_Date__c &lt; Arrival_Date__c</errorConditionFormula>
+        <errorMessage>In-Bond date cannot be earlier than Arrival Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>In_Country_Transit_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Received_Date__c &lt;  Exbond_Date__c</errorConditionFormula>
+        <errorMessage>Received date cannot be earlier than Exbond Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Label_Ordering_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Label_order_Date__c &lt;    Invoice_Dt__c</errorConditionFormula>
+        <errorMessage>Labeling order date cannot be earlier than Invoice date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Label_Printing_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Label_Print_Date__c &lt;     Label_order_Date__c</errorConditionFormula>
+        <errorMessage>Label print date cannot be earlier than label order date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Labeling_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Lbl_end_dt__c &lt;  Lbl_Strt_Dt__c</errorConditionFormula>
+        <errorMessage>Labeling End Date cannot be earlier than Labeling Start Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Labeling_queuing_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Lbl_Strt_Dt__c &lt;  Lbl_Disp_Bond_WH_Dt__c</errorConditionFormula>
+        <errorMessage>Labeling Start Date cannot be earlier than Label Dispatched to Bonded WH Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Overall_custom_clearance_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Exbond_Date__c &lt;   Arrival_Date__c</errorConditionFormula>
+        <errorMessage>Exbond date cannot be earlier than Arrival date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Receipting_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Receipting_in_system__c &lt;  Lbl_Chk_Compl_On__c</errorConditionFormula>
+        <errorMessage>Receipting in system cannot be earlier than Label Checking Compl On date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Shipment_transit_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Arrival_Date__c &lt;   Invoice_Dt__c</errorConditionFormula>
+        <errorMessage>Arrival date cannot be earlier than Invoice date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Shrink_Wrapping_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Shrink_Wrapping_completion_date__c &lt;    Phys_Check_Compl_On__c</errorConditionFormula>
+        <errorMessage>Shrink Wrapping completion date cannot be earlier than Physical check completion date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Shrink_Wrapping_for_Ethicon</fullName>
+        <active>true</active>
+        <errorConditionFormula>Franchise__r.Name!=&apos;Ethicon&apos; &amp;&amp; NOT(ISBLANK(Shrink_Wrapping_completion_date__c))</errorConditionFormula>
+        <errorMessage>Shrink Wrapping Completion Date is applicable only for Franchise &apos;Ethicon&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Status_update_date_Calc</fullName>
+        <active>true</active>
+        <description>Status date cannot be lesser than Invoice date.</description>
+        <errorConditionFormula>Status_Update_Date__c  &lt;  Invoice_Dt__c</errorConditionFormula>
+        <errorMessage>Status update date cannot be earlier than Invoice date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>WH_Checking_Time_Calc</fullName>
+        <active>true</active>
+        <errorConditionFormula>Phys_Check_Compl_On__c &lt;   Received_Date__c</errorConditionFormula>
+        <errorMessage>Physical Check Completion date cannot be earlier than Received date</errorMessage>
+    </validationRules>
+</CustomObject>
