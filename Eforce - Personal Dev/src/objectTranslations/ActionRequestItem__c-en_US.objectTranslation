@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>ActionRequestItem</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ActionRequestItems</value>
+    </caseValues>
+    <fields>
+        <label><!-- ActionRequest --></label>
+        <name>ActionRequest__c</name>
+        <relationshipLabel><!-- ActionRequestItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Value --></label>
+        <name>New_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Value --></label>
+        <name>Old_Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

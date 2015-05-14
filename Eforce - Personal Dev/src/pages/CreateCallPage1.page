@@ -1,0 +1,106 @@
+<!-- =============================================================================================== -->
+<!-- Create Call Page    (overridden for New & Edit Call Page                                       -->
+<!-- Copyright © 2014  JNJ                                                                          -->
+<!-- Developed by Cognizant Technology Solutions                                                    -->
+<!-- VERSION  AUTHOR              DATE              DETAIL                     RELEASE/CSR          -->
+<!--   1.0 -  Karthik Ramesh   29/09/2014        INITIAL DEVELOPMENT               New              -->
+<!-- =============================================================================================== -->
+<apex:page standardController="Call__c" extensions="CallController2,AutoSuggestController" tabStyle="Call__c" id="callpage" action="{!pageLoadAction}">
+    <apex:form id="callform">
+        <apex:pageBlock id="pbi">
+            <div style="width: 100%; float: center;">
+                <table cellspacing="0" cellpadding="0" align="center" border="0">
+                    <tr style="align:center">
+                        <td>
+                            <apex:commandButton action="{!saveDetails}" value="{!$Label.Save}" id="saveButton" rendered="{!(editFlag && !callDetailsFlag && action!='Update' && LEN(recordTypeName)>0)}"/>
+                            <apex:commandButton action="{!updateDetails}" value="{!$Label.Update}" id="updateButton" rendered="{!(action=='Update' && !callDetailsFlag && editFlag && planEditFlag)}"/>            
+                            <apex:commandButton action="{!cancel}" value="{!$Label.Cancel}" id="cancelButton" immediate="true"/>            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <center>
+            <apex:pageMessages/>
+            </center><br/>
+            <apex:actionRegion id="callTypeRegion">
+                <apex:pageBlockSection title="{!$Label.Select_CallType}" id="pbsCallType" columns="2">
+                    <apex:inputField value="{!call.Activity_Type__c}" id="callType" required="true" styleClass="callPlan" rendered="{!planEditFlag}">
+                        <apex:actionSupport event="onchange" status="pleasewait" action="{!setCallType}" reRender="pbi"/>
+                        <apex:actionStatus id="pleasewait">
+                            <apex:facet name="start">
+                                <img src="{!$Resource.AjaxAnimation}" width="110px" style="padding-top:2px" />
+                            </apex:facet>
+                        </apex:actionStatus>
+                    </apex:inputField>
+                    <apex:outputField value="{!call.Activity_Type__c}" id="callType1" styleClass="callPlan" rendered="{!planEditFlag}"/>
+                    <apex:inputField value="{!call.Assigned_To__c}" id="AssignedTo" rendered="{!planEditFlag}"/>
+                    <apex:outputField value="{!call.Assigned_To__c}" id="AssignedTo1" rendered="{!planEditFlag}"/>
+                </apex:pageBlockSection>
+            </apex:actionRegion>
+            
+            <apex:pageBlockSection title="{!$Label.Call_Planning}" id="callPlan1" rendered="{!LEN(recordTypeName)>0 && BEGINS(recordTypeName,'Face')}">
+            <!-- Previously all fields were called from Face to Face field set. -->
+            <!-- <apex:pageBlockSectionItem id="callPlanSectionItem1">
+                <apex:outputText value="{!tempField.Label}"/>
+                <apex:outputPanel id="fieldPanel1">
+                    <apex:outputPanel id="noAutoSuggestPanel1" rendered="{!BEGINS(tempField.Label,'Attendee')}" >
+                    <apex:inputField value="{!call[tempField]}" id="fieldId1" required="{!tempField.Required}" styleClass="callPlan"/>
+                    </apex:outputPanel>
+                    <apex:outputPanel id="autoSuggestPanel1" rendered="{!BEGINS(tempField.Label,'Attendee')}">
+                        <apex:inputField value="{!Call[tempField]}" id="field2" required="{!tempField.Required}" styleClass="callPlan">
+                            <c:AutoSuggestComponent autocomplete_textbox="{!$Component.fieldId2}" objectname="Account" id="autoComponent1" />
+                        </apex:inputField>                        
+                    </apex:outputPanel>
+                </apex:outputPanel>
+            </apex:pageBlockSectionItem>  -->
+            <!-- To Render the block when Face to Face activity type is choosen -->
+            <apex:pageBlockSectionItem>
+            	<apex:outputLabel value="{!$ObjectType.Call__c.fields.Account__c.label}" />
+            	<apex:outputpanel styleclass="requiredInput" layout="block" >
+            		<apex:outputPanel styleClass="requiredBlock" layout="block" />
+            		<apex:inputField value="{!Call.Account__c}" required="false" rendered="{!planEditFlag}" id="Primary1" />
+            		<apex:outputField value="{!Call.Account__c}" rendered="{!!planEditFlag}" />
+            	</apex:outputpanel>
+            </apex:pageBlockSectionItem>
+            <apex:inputField value="{!Call.Hospital__c}" rendered="{!planEditFlag}" id="hospid1" />
+            <apex:outputField value="{!Call.Hopsital__c}" rendered="{!planEditFlag}" />
+            <apex:pageBlockSectionItem >
+            	<apex:outputLabel value="{!$objectType.Call__c.fields.Call_Date__c.label}" />
+            	<apex:outputPanel styleClass="requiredInput" layout="block" >
+            		<apex:outputPanel styleClass="requiredBlock" layout="block" />
+            		<apex:inputField value="{!Call.Call_Date__c}" required="false" rendered="{!planEditFlag}" />
+            		<apex:outputField value="{!Call.Call_Date__c}" rendered="{!!planEditFlag}" />
+            	</apex:outputPanel>
+            </apex:pageBlockSectionItem>
+            <apex:outputLabel />
+            <apex:pageBlockSectionItem>
+       	  		<apex:outputLabel value="{!$ObjectType.Call__c.fields.Call_Start_Time__c.label}" /> 
+                <apex:outputPanel styleClass="requiredInput" layout="block">
+                	<apex:outputPanel styleClass="requiredBlock" layout="block" />
+                     	<apex:inputField value="{!Call.Call_Start_Time__c}" rendered="{!planEditFlag}"/>
+                        <apex:outputfield value="{!Call.Call_Start_Time__c}" rendered="{!!planEditFlag}"/>
+                    </apex:outputPanel>
+            </apex:pageBlockSectionItem>
+            <apex:pageblockSectionItem >
+            	<apex:outputLabel value="{!$ObjectType.Call__c.fields.Call_End_Time__c.label}" /> 
+                <apex:outputPanel styleClass="requiredInput" layout="block">
+                	<apex:outputPanel styleClass="requiredBlock" layout="block" />
+                   	<apex:inputField value="{!Call.Call_End_Time__c}" rendered="{!planEditFlag}"/>
+                    <apex:outputfield value="{!Call.Call_End_Time__c}" rendered="{!!planEditFlag}"/>
+                </apex:outputPanel>
+            </apex:pageblockSectionItem>
+            <apex:pageblockSectionItem >
+            	<apex:outputLabel value="{!$ObjectType.Call__c.fields.Call_Activity__c.label}" /> 
+                <apex:outputPanel styleClass="requiredInput" layout="block">
+                	<apex:outputPanel styleClass="requiredBlock" layout="block" />
+                    <apex:inputField value="{!Call.Call_Activity__c}" rendered="{!planEditFlag}"/>
+                    <apex:outputField value="{!Call.Call_Activity__c}" rendered="{!!planEditFlag}"/>
+                </apex:outputPanel>
+            </apex:pageblockSectionItem>
+            <apex:inputField value="{!Call.Secondary_activity__c}" rendered="{!planEditFlag}" />
+            <apex:outputtext value="{!Call.Secondary_activity__c}" rendered="{!planEditFlag}" />
+            <apex:inputField value="{!Call.This_Call_Objective__c}" style="width:300px;height:100px" />
+    		</apex:pageBlockSection>
+        </apex:pageBlock> 
+     </apex:form>   
+</apex:page>

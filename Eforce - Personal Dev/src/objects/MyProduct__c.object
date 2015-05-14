@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Active_From__c</fullName>
+        <description>Indicates Active Stating date of Product</description>
+        <label>Active From</label>
+        <required>true</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Active_To__c</fullName>
+        <description>Indicates Active End date of a product</description>
+        <label>Active To</label>
+        <required>true</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether Product is active or not?</description>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <label>Description</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Franchise__c</fullName>
+        <label>Franchise</label>
+        <picklist>
+            <controllingField>MDD__c</controllingField>
+            <picklistValues>
+                <fullName>01_7904 Ethicon Products</fullName>
+                <controllingFieldValues>General Surgery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>01_7917 Womens Health &amp; Urology</fullName>
+                <controllingFieldValues>General Surgery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>01_0328 Wound Management</fullName>
+                <controllingFieldValues>Specialty Surgery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>01_0470 Mentor Products</fullName>
+                <controllingFieldValues>Specialty Surgery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MDD__c</fullName>
+        <label>MDD</label>
+        <picklist>
+            <picklistValues>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Specialty Surgery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Major_Group__c</fullName>
+        <label>Major Group</label>
+        <picklist>
+            <controllingField>Sub_Franchise__c</controllingField>
+            <picklistValues>
+                <fullName>03_0500 Sutures</fullName>
+                <controllingFieldValues>02_7973 Ethicon Prod Wound Care</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0512 Total Topical Skin Adhesives</fullName>
+                <controllingFieldValues>02_7973 Ethicon Prod Wound Care</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_7903 Total Hernia Repair</fullName>
+                <controllingFieldValues>02_7973 Ethicon Prod Wound Care</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_7974 Closed Wound Drains</fullName>
+                <controllingFieldValues>02_7973 Ethicon Prod Wound Care</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0581 Adhesion Prevention</fullName>
+                <controllingFieldValues>02_7917 Womens Health &amp; Urology</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_1315 Continence</fullName>
+                <controllingFieldValues>02_7917 Womens Health &amp; Urology</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_7911 Thermachoice</fullName>
+                <controllingFieldValues>02_7917 Womens Health &amp; Urology</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_7983 Uterine Surgery</fullName>
+                <controllingFieldValues>02_7917 Womens Health &amp; Urology</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0525 Wound Mangement - Other</fullName>
+                <controllingFieldValues>02_0525 Wound Management - Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_7575 Topical Absorbable Hemostasis</fullName>
+                <controllingFieldValues>02_7575 BioSurgicals - WM</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0470 Breast Aesthetics</fullName>
+                <controllingFieldValues>02_0470 Mentor Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0475 Body Contouring</fullName>
+                <controllingFieldValues>02_0470 Mentor Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0477 Facial Aesthetics</fullName>
+                <controllingFieldValues>02_0470 Mentor Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>03_0480 Other Aesthetics</fullName>
+                <controllingFieldValues>02_0470 Mentor Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Minor_Group__c</fullName>
+        <label>Minor Group</label>
+        <picklist>
+            <controllingField>Major_Group__c</controllingField>
+            <picklistValues>
+                <fullName>04_0642 Sutures Absorbable - Gut</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0643 Sutures Absorbable - PDS</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0644 Sutures Absorbable-Vicryl</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0645 Sutures Absorbable-Vicryl Rapid</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0646 Sutures Absorbable-Monocryl</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0650 SuturesNon-Absorb-Ethibond</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0651 SuturesNon-Absorb-Ethilon</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0652 SuturesNon-Absorb-Mersilene</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0653 SuturesNon-Absorb-Prolene</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0654 SuturesNon-Absorb-Silk</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0655 SuturesNon-Absorb-Other</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0771 Sutures Absorbable - Vicryl Plus</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0923 Sutures Absorbable - PDS Plus</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0924 Sutures Absorbable - Monocryl Plus</fullName>
+                <controllingFieldValues>03_0500 Sutures</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0931 Dermabond Propen</fullName>
+                <controllingFieldValues>03_0512 Total Topical Skin Adhesives</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0932 Dermabond Propen XL</fullName>
+                <controllingFieldValues>03_0512 Total Topical Skin Adhesives</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7979 Dermabond - High Viscosity</fullName>
+                <controllingFieldValues>03_0512 Total Topical Skin Adhesives</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0925 Prolene</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0928 Ultrapro Hernia System</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0929 Mersilene</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0930 Vicryl</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0936 Securestrap</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0989 Physiomesh</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7976 PHS</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7993 Vypro</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7995 Proceed</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7996 Ultrapro</fullName>
+                <controllingFieldValues>03_7903 Total Hernia Repair</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7554 Closed Wound Drains</fullName>
+                <controllingFieldValues>03_7974 Closed Wound Drains</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7715 Interceed</fullName>
+                <controllingFieldValues>03_0581 Adhesion Prevention</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7716 Intercoat</fullName>
+                <controllingFieldValues>03_0581 Adhesion Prevention</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0434 TVT-O</fullName>
+                <controllingFieldValues>03_1315 Continence</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7988 TVT Classic</fullName>
+                <controllingFieldValues>03_1315 Continence</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_7911 Thermachoice</fullName>
+                <controllingFieldValues>03_7911 Thermachoice</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0956 Morcellex</fullName>
+                <controllingFieldValues>03_7983 Uterine Surgery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0371 K-Y* Products</fullName>
+                <controllingFieldValues>03_0525 Wound Mangement - Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0587 Surgicel</fullName>
+                <controllingFieldValues>03_7575 Topical Absorbable Hemostasis</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0588 Nu-Knit</fullName>
+                <controllingFieldValues>03_7575 Topical Absorbable Hemostasis</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0589 Fibrillar</fullName>
+                <controllingFieldValues>03_7575 Topical Absorbable Hemostasis</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0592 Surgifoam</fullName>
+                <controllingFieldValues>03_7575 Topical Absorbable Hemostasis</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0471 Gels Round</fullName>
+                <controllingFieldValues>03_0470 Breast Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0473 Tissue Expanders</fullName>
+                <controllingFieldValues>03_0470 Breast Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0481 Gels Shaped</fullName>
+                <controllingFieldValues>03_0470 Breast Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0483 Gel/Saline Combination</fullName>
+                <controllingFieldValues>03_0470 Breast Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0476 Other Body Aesthetics</fullName>
+                <controllingFieldValues>03_0475 Body Contouring</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0485 PDS Plates</fullName>
+                <controllingFieldValues>03_0477 Facial Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>04_0480 Other Aesthetics</fullName>
+                <controllingFieldValues>03_0480 Other Aesthetics</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Product__c</fullName>
+        <description>Parent Product of a product if exists</description>
+        <label>Product Group</label>
+        <referenceTo>MyProduct__c</referenceTo>
+        <relationshipLabel>Child Products</relationshipLabel>
+        <relationshipName>ChildProducts</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <description>Unique Indentification of a Product</description>
+        <externalId>true</externalId>
+        <label>Product Code</label>
+        <length>31</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Franchise__c</fullName>
+        <label>Sub Franchise</label>
+        <picklist>
+            <controllingField>Franchise__c</controllingField>
+            <picklistValues>
+                <fullName>02_7973 Ethicon Prod Wound Care</fullName>
+                <controllingFieldValues>01_7904 Ethicon Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>02_7917 Womens Health &amp; Urology</fullName>
+                <controllingFieldValues>01_7917 Womens Health &amp; Urology</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>02_0525 Wound Management - Other</fullName>
+                <controllingFieldValues>01_0328 Wound Management</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>02_7575 BioSurgicals - WM</fullName>
+                <controllingFieldValues>01_0328 Wound Management</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>02_0470 Mentor Products</fullName>
+                <controllingFieldValues>01_0470 Mentor Products</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <label>Product</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Product Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Products</pluralLabel>
+    <recordTypes>
+        <fullName>Brand</fullName>
+        <active>true</active>
+        <description>Brand</description>
+        <label>Brand</label>
+        <picklistValues>
+            <picklist>Franchise__c</picklist>
+            <values>
+                <fullName>01_0328 Wound Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_0470 Mentor Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_7904 Ethicon Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_7917 Womens Health %26 Urology</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MDD__c</picklist>
+            <values>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty Surgery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Major_Group__c</picklist>
+            <values>
+                <fullName>03_0470 Breast Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0475 Body Contouring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0477 Facial Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0480 Other Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0500 Sutures</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0512 Total Topical Skin Adhesives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0525 Wound Mangement - Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0581 Adhesion Prevention</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_1315 Continence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7575 Topical Absorbable Hemostasis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7903 Total Hernia Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7911 Thermachoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7974 Closed Wound Drains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7983 Uterine Surgery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Minor_Group__c</picklist>
+            <values>
+                <fullName>04_0371 K-Y* Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0434 TVT-O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0471 Gels Round</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0473 Tissue Expanders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0476 Other Body Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0480 Other Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0481 Gels Shaped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0483 Gel%2FSaline Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0485 PDS Plates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0587 Surgicel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0588 Nu-Knit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0589 Fibrillar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0592 Surgifoam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0642 Sutures Absorbable - Gut</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0643 Sutures Absorbable - PDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0644 Sutures Absorbable-Vicryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0645 Sutures Absorbable-Vicryl Rapid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0646 Sutures Absorbable-Monocryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0650 SuturesNon-Absorb-Ethibond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0651 SuturesNon-Absorb-Ethilon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0652 SuturesNon-Absorb-Mersilene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0653 SuturesNon-Absorb-Prolene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0654 SuturesNon-Absorb-Silk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0655 SuturesNon-Absorb-Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0771 Sutures Absorbable - Vicryl Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0923 Sutures Absorbable - PDS Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0924 Sutures Absorbable - Monocryl Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0925 Prolene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0928 Ultrapro Hernia System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0929 Mersilene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0930 Vicryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0931 Dermabond Propen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0932 Dermabond Propen XL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0936 Securestrap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0956 Morcellex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0989 Physiomesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7554 Closed Wound Drains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7715 Interceed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7716 Intercoat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7911 Thermachoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7976 PHS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7979 Dermabond - High Viscosity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7988 TVT Classic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7993 Vypro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7995 Proceed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7996 Ultrapro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Franchise__c</picklist>
+            <values>
+                <fullName>02_0470 Mentor Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_0525 Wound Management - Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7575 BioSurgicals - WM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7917 Womens Health %26 Urology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7973 Ethicon Prod Wound Care</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Product_Group</fullName>
+        <active>true</active>
+        <description>Product Group</description>
+        <label>Product Group</label>
+        <picklistValues>
+            <picklist>Franchise__c</picklist>
+            <values>
+                <fullName>01_0328 Wound Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_0470 Mentor Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_7904 Ethicon Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01_7917 Womens Health %26 Urology</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MDD__c</picklist>
+            <values>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty Surgery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Major_Group__c</picklist>
+            <values>
+                <fullName>03_0470 Breast Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0475 Body Contouring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0477 Facial Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0480 Other Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0500 Sutures</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0512 Total Topical Skin Adhesives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0525 Wound Mangement - Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_0581 Adhesion Prevention</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_1315 Continence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7575 Topical Absorbable Hemostasis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7903 Total Hernia Repair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7911 Thermachoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7974 Closed Wound Drains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>03_7983 Uterine Surgery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Minor_Group__c</picklist>
+            <values>
+                <fullName>04_0371 K-Y* Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0434 TVT-O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0471 Gels Round</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0473 Tissue Expanders</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0476 Other Body Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0480 Other Aesthetics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0481 Gels Shaped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0483 Gel%2FSaline Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0485 PDS Plates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0587 Surgicel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0588 Nu-Knit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0589 Fibrillar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0592 Surgifoam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0642 Sutures Absorbable - Gut</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0643 Sutures Absorbable - PDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0644 Sutures Absorbable-Vicryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0645 Sutures Absorbable-Vicryl Rapid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0646 Sutures Absorbable-Monocryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0650 SuturesNon-Absorb-Ethibond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0651 SuturesNon-Absorb-Ethilon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0652 SuturesNon-Absorb-Mersilene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0653 SuturesNon-Absorb-Prolene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0654 SuturesNon-Absorb-Silk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0655 SuturesNon-Absorb-Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0771 Sutures Absorbable - Vicryl Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0923 Sutures Absorbable - PDS Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0924 Sutures Absorbable - Monocryl Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0925 Prolene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0928 Ultrapro Hernia System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0929 Mersilene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0930 Vicryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0931 Dermabond Propen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0932 Dermabond Propen XL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0936 Securestrap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0956 Morcellex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_0989 Physiomesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7554 Closed Wound Drains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7715 Interceed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7716 Intercoat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7911 Thermachoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7976 PHS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7979 Dermabond - High Viscosity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7988 TVT Classic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7993 Vypro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7995 Proceed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>04_7996 Ultrapro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Franchise__c</picklist>
+            <values>
+                <fullName>02_0470 Mentor Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_0525 Wound Management - Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7575 BioSurgicals - WM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7917 Womens Health %26 Urology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>02_7973 Ethicon Prod Wound Care</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Product_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Active_From__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Active_To__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_Code__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active_From__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active_To__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Product_Code__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Active_From__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Active_To__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Product_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active_From__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active_To__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

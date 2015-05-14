@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>MyProduct__c</fullName>
+        <label>Product</label>
+        <referenceTo>MyProduct__c</referenceTo>
+        <relationshipLabel>Product Teams</relationshipLabel>
+        <relationshipName>Product_Teams</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <label>Product Team Member</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Product_Teams</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <label>Product Team</label>
+    <nameField>
+        <label>Product Team Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Product Teams</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Owner_Share_Validation</fullName>
+        <active>false</active>
+        <description>Checking for Product Share for Owner</description>
+        <errorConditionFormula>User__r.Id = MyProduct__r.CreatedBy.Id</errorConditionFormula>
+        <errorDisplayField>User__c</errorDisplayField>
+        <errorMessage>No additional sharing required for owner of the record</errorMessage>
+    </validationRules>
+</CustomObject>

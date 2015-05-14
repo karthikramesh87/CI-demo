@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Action</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Add_Product</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Product</shortDescription>
+        <value>Add Product</value>
+    </labels>
+    <labels>
+        <fullName>Add_Row</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Row</shortDescription>
+        <value>Add Row</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Call_Edit_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Edit Error</shortDescription>
+        <value>Note: Cannot be modified after 5 days to call date</value>
+    </labels>
+    <labels>
+        <fullName>Call_Plan_Edit_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Plan Edit Error</shortDescription>
+        <value>Note: Cannot be modified after call date</value>
+    </labels>
+    <labels>
+        <fullName>Call_Planning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Planning</shortDescription>
+        <value>Call Planning</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Edit_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Customer Edit Error</shortDescription>
+        <value>Cannot Edit Record now as record submitted to Admin, Please try after some time..</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Customer_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Customer Details</shortDescription>
+        <value>Edit Customer Details</value>
+    </labels>
+    <labels>
+        <fullName>Field_To_Update</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Field To Update</shortDescription>
+        <value>Field To Update</value>
+    </labels>
+    <labels>
+        <fullName>IsDetail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>IsDetail</shortDescription>
+        <value>IsDetailed?</value>
+    </labels>
+    <labels>
+        <fullName>New_Value</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New Value</shortDescription>
+        <value>New Value</value>
+    </labels>
+    <labels>
+        <fullName>Old_Value</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Old Value</shortDescription>
+        <value>Old Value</value>
+    </labels>
+    <labels>
+        <fullName>Post_Call_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Call Details</shortDescription>
+        <value>Post Call Details</value>
+    </labels>
+    <labels>
+        <fullName>Product_Specialist_Role</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Product Specialist Role</shortDescription>
+        <value>&apos;Product Specialist Indonesia&apos;,&apos;Product Specialist Malaysia &apos;,&apos;Product Specialist Philippines&apos;,&apos;Product Specialist Singapore&apos;,&apos;Product Specialist Thailand &apos;,&apos;Product Specialist Vietnam&apos;</value>
+    </labels>
+    <labels>
+        <fullName>Products</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Products</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>Remove</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remove</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Remove_Product</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remove Product</shortDescription>
+        <value>Remove Product</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Select</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select</shortDescription>
+        <value>Select</value>
+    </labels>
+    <labels>
+        <fullName>Select_Call_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Call Type</shortDescription>
+        <value>Select Call Type</value>
+    </labels>
+    <labels>
+        <fullName>Special_Account</fullName>
+        <categories>For Populating the primary attendee for the TOT recordtype</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Special Account</shortDescription>
+        <value>Special Doctor Account For TOT</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>TOT_RecordType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TOT RecordType</shortDescription>
+        <value>Time Off Territory</value>
+    </labels>
+    <labels>
+        <fullName>Update</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>Urlpath</fullName>
+        <categories>used in sendMailtoAssignedto apex class</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Urlpath</shortDescription>
+        <value>https://ap1.salesforce.com</value>
+    </labels>
+</CustomLabels>

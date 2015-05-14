@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active From --></label>
+        <name>Active_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active To --></label>
+        <name>Active_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Franchise --></label>
+        <name>Franchise__c</name>
+        <picklistValues>
+            <masterLabel>01_0328 Wound Management</masterLabel>
+            <translation><!-- 01_0328 Wound Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01_0470 Mentor Products</masterLabel>
+            <translation><!-- 01_0470 Mentor Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01_7904 Ethicon Products</masterLabel>
+            <translation><!-- 01_7904 Ethicon Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>01_7917 Womens Health &amp; Urology</masterLabel>
+            <translation><!-- 01_7917 Womens Health &amp; Urology --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MDD --></label>
+        <name>MDD__c</name>
+        <picklistValues>
+            <masterLabel>General Surgery</masterLabel>
+            <translation><!-- General Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty Surgery</masterLabel>
+            <translation><!-- Specialty Surgery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Major Group --></label>
+        <name>Major_Group__c</name>
+        <picklistValues>
+            <masterLabel>03_0470 Breast Aesthetics</masterLabel>
+            <translation><!-- 03_0470 Breast Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0475 Body Contouring</masterLabel>
+            <translation><!-- 03_0475 Body Contouring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0477 Facial Aesthetics</masterLabel>
+            <translation><!-- 03_0477 Facial Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0480 Other Aesthetics</masterLabel>
+            <translation><!-- 03_0480 Other Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0500 Sutures</masterLabel>
+            <translation><!-- 03_0500 Sutures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0512 Total Topical Skin Adhesives</masterLabel>
+            <translation><!-- 03_0512 Total Topical Skin Adhesives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0525 Wound Mangement - Other</masterLabel>
+            <translation><!-- 03_0525 Wound Mangement - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_0581 Adhesion Prevention</masterLabel>
+            <translation><!-- 03_0581 Adhesion Prevention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_1315 Continence</masterLabel>
+            <translation><!-- 03_1315 Continence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_7575 Topical Absorbable Hemostasis</masterLabel>
+            <translation><!-- 03_7575 Topical Absorbable Hemostasis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_7903 Total Hernia Repair</masterLabel>
+            <translation><!-- 03_7903 Total Hernia Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_7911 Thermachoice</masterLabel>
+            <translation><!-- 03_7911 Thermachoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_7974 Closed Wound Drains</masterLabel>
+            <translation><!-- 03_7974 Closed Wound Drains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03_7983 Uterine Surgery</masterLabel>
+            <translation><!-- 03_7983 Uterine Surgery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Minor Group --></label>
+        <name>Minor_Group__c</name>
+        <picklistValues>
+            <masterLabel>04_0371 K-Y* Products</masterLabel>
+            <translation><!-- 04_0371 K-Y* Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0434 TVT-O</masterLabel>
+            <translation><!-- 04_0434 TVT-O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0471 Gels Round</masterLabel>
+            <translation><!-- 04_0471 Gels Round --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0473 Tissue Expanders</masterLabel>
+            <translation><!-- 04_0473 Tissue Expanders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0476 Other Body Aesthetics</masterLabel>
+            <translation><!-- 04_0476 Other Body Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0480 Other Aesthetics</masterLabel>
+            <translation><!-- 04_0480 Other Aesthetics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0481 Gels Shaped</masterLabel>
+            <translation><!-- 04_0481 Gels Shaped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0483 Gel/Saline Combination</masterLabel>
+            <translation><!-- 04_0483 Gel/Saline Combination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0485 PDS Plates</masterLabel>
+            <translation><!-- 04_0485 PDS Plates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0587 Surgicel</masterLabel>
+            <translation><!-- 04_0587 Surgicel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0588 Nu-Knit</masterLabel>
+            <translation><!-- 04_0588 Nu-Knit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0589 Fibrillar</masterLabel>
+            <translation><!-- 04_0589 Fibrillar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0592 Surgifoam</masterLabel>
+            <translation><!-- 04_0592 Surgifoam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0642 Sutures Absorbable - Gut</masterLabel>
+            <translation><!-- 04_0642 Sutures Absorbable - Gut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0643 Sutures Absorbable - PDS</masterLabel>
+            <translation><!-- 04_0643 Sutures Absorbable - PDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0644 Sutures Absorbable-Vicryl</masterLabel>
+            <translation><!-- 04_0644 Sutures Absorbable-Vicryl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0645 Sutures Absorbable-Vicryl Rapid</masterLabel>
+            <translation><!-- 04_0645 Sutures Absorbable-Vicryl Rapid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0646 Sutures Absorbable-Monocryl</masterLabel>
+            <translation><!-- 04_0646 Sutures Absorbable-Monocryl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0650 SuturesNon-Absorb-Ethibond</masterLabel>
+            <translation><!-- 04_0650 SuturesNon-Absorb-Ethibond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0651 SuturesNon-Absorb-Ethilon</masterLabel>
+            <translation><!-- 04_0651 SuturesNon-Absorb-Ethilon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0652 SuturesNon-Absorb-Mersilene</masterLabel>
+            <translation><!-- 04_0652 SuturesNon-Absorb-Mersilene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0653 SuturesNon-Absorb-Prolene</masterLabel>
+            <translation><!-- 04_0653 SuturesNon-Absorb-Prolene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0654 SuturesNon-Absorb-Silk</masterLabel>
+            <translation><!-- 04_0654 SuturesNon-Absorb-Silk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0655 SuturesNon-Absorb-Other</masterLabel>
+            <translation><!-- 04_0655 SuturesNon-Absorb-Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0771 Sutures Absorbable - Vicryl Plus</masterLabel>
+            <translation><!-- 04_0771 Sutures Absorbable - Vicryl Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0923 Sutures Absorbable - PDS Plus</masterLabel>
+            <translation><!-- 04_0923 Sutures Absorbable - PDS Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0924 Sutures Absorbable - Monocryl Plus</masterLabel>
+            <translation><!-- 04_0924 Sutures Absorbable - Monocryl Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0925 Prolene</masterLabel>
+            <translation><!-- 04_0925 Prolene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0928 Ultrapro Hernia System</masterLabel>
+            <translation><!-- 04_0928 Ultrapro Hernia System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0929 Mersilene</masterLabel>
+            <translation><!-- 04_0929 Mersilene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0930 Vicryl</masterLabel>
+            <translation><!-- 04_0930 Vicryl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0931 Dermabond Propen</masterLabel>
+            <translation><!-- 04_0931 Dermabond Propen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0932 Dermabond Propen XL</masterLabel>
+            <translation><!-- 04_0932 Dermabond Propen XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0936 Securestrap</masterLabel>
+            <translation><!-- 04_0936 Securestrap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0956 Morcellex</masterLabel>
+            <translation><!-- 04_0956 Morcellex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_0989 Physiomesh</masterLabel>
+            <translation><!-- 04_0989 Physiomesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7554 Closed Wound Drains</masterLabel>
+            <translation><!-- 04_7554 Closed Wound Drains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7715 Interceed</masterLabel>
+            <translation><!-- 04_7715 Interceed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7716 Intercoat</masterLabel>
+            <translation><!-- 04_7716 Intercoat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7911 Thermachoice</masterLabel>
+            <translation><!-- 04_7911 Thermachoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7976 PHS</masterLabel>
+            <translation><!-- 04_7976 PHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7979 Dermabond - High Viscosity</masterLabel>
+            <translation><!-- 04_7979 Dermabond - High Viscosity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7988 TVT Classic</masterLabel>
+            <translation><!-- 04_7988 TVT Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7993 Vypro</masterLabel>
+            <translation><!-- 04_7993 Vypro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7995 Proceed</masterLabel>
+            <translation><!-- 04_7995 Proceed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04_7996 Ultrapro</masterLabel>
+            <translation><!-- 04_7996 Ultrapro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Parent_Product__c</name>
+        <relationshipLabel><!-- Child Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Franchise --></label>
+        <name>Sub_Franchise__c</name>
+        <picklistValues>
+            <masterLabel>02_0470 Mentor Products</masterLabel>
+            <translation><!-- 02_0470 Mentor Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02_0525 Wound Management - Other</masterLabel>
+            <translation><!-- 02_0525 Wound Management - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02_7575 BioSurgicals - WM</masterLabel>
+            <translation><!-- 02_7575 BioSurgicals - WM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02_7917 Womens Health &amp; Urology</masterLabel>
+            <translation><!-- 02_7917 Womens Health &amp; Urology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02_7973 Ethicon Prod Wound Care</masterLabel>
+            <translation><!-- 02_7973 Ethicon Prod Wound Care --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>My Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Brand --></label>
+        <name>Brand</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Group --></label>
+        <name>Product_Group</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
