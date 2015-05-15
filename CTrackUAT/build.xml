@@ -9,7 +9,7 @@
         </classpath>
     </taskdef>
 
-	<target name=""deployRunAllTests">
+	<target name="deployRunAllTests">
 		<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" runAlltests="true" logType="Detail" deployRoot="src"/>
 	</target>
 	
