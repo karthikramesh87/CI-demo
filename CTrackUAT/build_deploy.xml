@@ -1,6 +1,6 @@
 <project name="Sample usage of Salesforce Ant tasks" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 
-    <property file="build.properties"/>
+    <property file="build_deploy.properties"/>
     <property environment="env"/>
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
